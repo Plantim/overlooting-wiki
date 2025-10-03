@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+    --background-color: #1e1e1e;
+    --card-background: #2d2d2d;
+    --text-color: #e0e0e0;
+    --primary-color: #007bff;
+    --border-color: #444;
+
+    /* Couleurs des raretés mises à jour selon votre image */
+    --rarity-common: #a1907b;      /* Beige */
+    --rarity-uncommon: #4caf50;    /* Vert */
+    --rarity-rare: #3498db;        /* Bleu */
+    --rarity-epic: #8e44ad;        /* Violet */
+    --rarity-legendary: #e67e22;   /* Orange */
+    --rarity-mythic: #a63446;      /* Rouge Bordeau */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.filters input[type="text"],
+.filters select {
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    background-color: var(--card-background);
+    color: var(--text-color);
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.filters input[type="text"] {
+    width: 300px;
+}
+
+#items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.memory-card {
+    background-color: var(--card-background);
+    /* Modifié pour une bordure complète de 3px */
+    border: 3px solid var(--border-color); 
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+.memory-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    overflow: visible;
+    z-index: 100;
+}
+
+/* Règles mises à jour pour utiliser border-color sur la bordure complète */
+.memory-card.common { border-color: var(--rarity-common); }
+.memory-card.uncommon { border-color: var(--rarity-uncommon); }
+.memory-card.rare { border-color: var(--rarity-rare); }
+.memory-card.epic { border-color: var(--rarity-epic); }
+.memory-card.legendary { border-color: var(--rarity-legendary); }
+.memory-card.mythic { border-color: var(--rarity-mythic); } /* Ajout de la règle pour Mythic */
+
+.memory-card-header {
+    padding: 10px 15px;
+    background-color: rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.memory-card-name {
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.memory-card-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.memory-card-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.memory-card-info {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #3a3a3a;
+}
+.info-row:last-child {
+    border-bottom: none;
+}
+
+.info-row .label {
+    color: #b8b8b8;
+    font-weight: 500;
+}
+
+.info-row .value {
+    font-weight: 400;
+}
+
+.rarity-value {
+    font-weight: bold;
+}
+
+.memory-card-levels {
+    width: 100%;
+    margin-top: 10px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.level-tabs {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #5a5a5a;
+    margin-bottom: 10px;
+}
+
+.tab-button {
+    background: none;
+    border: none;
+    color: #b8b8b8;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: color 0.2s, border-bottom 0.2s;
+    border-bottom: 3px solid transparent;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.tab-button:hover {
+    color: #fff;
+}
+
+.tab-button.active {
+    color: #fff;
+    border-bottom: 3px solid #007bff;
+}
+
+.level-content {
+    display: none;
+    text-align: left;
+    font-size: 0.85em;
+    color: #ccc;
+    padding: 5px;
+}
+
+.level-content.active {
+    display: block;
+}
+
+.level-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.level-content ul li {
+    margin-bottom: 4px;
+}
+
+.has-tooltip {
+  position: relative;
+  cursor: help;
+}
+
+.has-tooltip::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 120%; 
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  white-space: pre-wrap;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+  z-index: 10;
+}
+
+.has-tooltip:hover::after {
+  visibility: visible;
+  opacity: 1;
+}
+
+.english-name {
+    display: block;
+    font-size: 0.8em;
+    color: #888;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.set-info {
+    display: flex;
+    align-items: center;
+}
+
+.set-icon {
+    height: 1em;
+    margin-right: 6px;
+}
+
+/* --- Style pour l'affichage de la version --- */
+#version-display {
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color: #888; /* Gris discret */
+    /* background-color: rgba(255, 255, 255, 0.7);  Fond semi-transparent pour la lisibilité */
+    padding: 2px 5px;
+    border-radius: 3px;
+    z-index: 10000; /* Pour s'assurer qu'il est au-dessus de tout */
+}

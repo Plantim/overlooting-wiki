@@ -1,0 +1,5878 @@
+{
+    "arcane": {
+        "adept_boots": {
+            "id": "adept_boots",
+            "name": "ADEPT_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Rare",
+            "equipment_set": "arcane_set",
+            "icon": "adept_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "mana_burst": 10,
+                    "swiftness": 10
+                },
+                "level 2": {
+                    "armor": 5,
+                    "mana_burst": 15,
+                    "swiftness": 15
+                },
+                "level 3": {
+                    "armor": 8,
+                    "mana_burst": 23,
+                    "swiftness": 23
+                }
+            }
+        },
+        "adept_hat": {
+            "id": "adept_hat",
+            "name": "ADEPT_HAT_NAME",
+            "category": "Head",
+            "rarity": "Rare",
+            "equipment_set": "arcane_set",
+            "icon": "adept_hat",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "mana_burst": 20
+                },
+                "level 2": {
+                    "armor": 6,
+                    "mana_burst": 30
+                },
+                "level 3": {
+                    "armor": 9,
+                    "mana_burst": 45
+                }
+            }
+        },
+        "adept_robes": {
+            "id": "adept_robes",
+            "name": "ADEPT_ROBES_NAME",
+            "category": "Torso",
+            "rarity": "Rare",
+            "equipment_set": "arcane_set",
+            "icon": "adept_robes",
+            "stats": {
+                "level 1": {
+                    "armor": 5,
+                    "mana_burst": 15
+                },
+                "level 2": {
+                    "armor": 8,
+                    "mana_burst": 23
+                },
+                "level 3": {
+                    "armor": 12,
+                    "mana_burst": 35
+                }
+            }
+        },
+        "adept_staff": {
+            "id": "adept_staff",
+            "name": "ADEPT_STAFF_NAME",
+            "category": "Weapon",
+            "rarity": "Rare",
+            "equipment_set": "arcane_set",
+            "icon": "adept_staff",
+            "stats": {
+                "level 1": {
+                    "min_magic_damage": 4,
+                    "max_magic_damage": 6,
+                    "mana_burst": 15
+                },
+                "level 2": {
+                    "min_magic_damage": 6,
+                    "max_magic_damage": 9,
+                    "mana_burst": 23
+                },
+                "level 3": {
+                    "min_magic_damage": 9,
+                    "max_magic_damage": 14,
+                    "mana_burst": 35
+                }
+            }
+        },
+        "dusty_hat": {
+            "id": "dusty_hat",
+            "name": "DUSTY_HAT_NAME",
+            "category": "Head",
+            "rarity": "Legendary",
+            "equipment_set": "arcane_set",
+            "icon": "dusty_hat",
+            "stats": {
+                "level 1": {
+                    "armor": 5,
+                    "mana_burst": 50
+                },
+                "level 2": {
+                    "armor": 8,
+                    "mana_burst": 75
+                },
+                "level 3": {
+                    "armor": 12,
+                    "mana_burst": 113
+                }
+            }
+        },
+        "initiate_boots": {
+            "id": "initiate_boots",
+            "name": "INITIATE_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Uncommon",
+            "equipment_set": "arcane_set",
+            "icon": "initiate_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "mana_burst": 5,
+                    "swiftness": 5
+                },
+                "level 2": {
+                    "armor": 5,
+                    "mana_burst": 8,
+                    "swiftness": 8
+                },
+                "level 3": {
+                    "armor": 8,
+                    "mana_burst": 12,
+                    "swiftness": 12
+                }
+            }
+        },
+        "initiate_hat": {
+            "id": "initiate_hat",
+            "name": "INITIATE_HAT_NAME",
+            "category": "Head",
+            "rarity": "Uncommon",
+            "equipment_set": "arcane_set",
+            "icon": "initiate_hat",
+            "stats": {
+                "level 1": {
+                    "armor": 2,
+                    "mana_burst": 15
+                },
+                "level 2": {
+                    "armor": 4,
+                    "mana_burst": 23
+                },
+                "level 3": {
+                    "armor": 6,
+                    "mana_burst": 35
+                }
+            }
+        },
+        "initiate_robes": {
+            "id": "initiate_robes",
+            "name": "INITIATE_ROBES_NAME",
+            "category": "Torso",
+            "rarity": "Uncommon",
+            "equipment_set": "arcane_set",
+            "icon": "initiate_robes",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "mana_burst": 5
+                },
+                "level 2": {
+                    "armor": 6,
+                    "mana_burst": 8
+                },
+                "level 3": {
+                    "armor": 9,
+                    "mana_burst": 12
+                }
+            }
+        },
+        "initiate_staff": {
+            "id": "initiate_staff",
+            "name": "INITIATE_STAFF_NAME",
+            "category": "Weapon",
+            "rarity": "Uncommon",
+            "equipment_set": "arcane_set",
+            "icon": "initiate_wand",
+            "stats": {
+                "level 1": {
+                    "min_magic_damage": 2,
+                    "max_magic_damage": 4,
+                    "mana_burst": 10
+                },
+                "level 2": {
+                    "min_magic_damage": 4,
+                    "max_magic_damage": 6,
+                    "mana_burst": 15
+                },
+                "level 3": {
+                    "min_magic_damage": 6,
+                    "max_magic_damage": 9,
+                    "mana_burst": 23
+                }
+            }
+        },
+        "magus_boots": {
+            "id": "magus_boots",
+            "name": "MAGUS_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Epic",
+            "equipment_set": "arcane_set",
+            "icon": "magus_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "mana_burst": 20,
+                    "swiftness": 10
+                },
+                "level 2": {
+                    "armor": 6,
+                    "mana_burst": 30,
+                    "swiftness": 15
+                },
+                "level 3": {
+                    "armor": 9,
+                    "mana_burst": 45,
+                    "swiftness": 23
+                }
+            }
+        },
+        "magus_hat": {
+            "id": "magus_hat",
+            "name": "MAGUS_HAT_NAME",
+            "category": "Head",
+            "rarity": "Epic",
+            "equipment_set": "arcane_set",
+            "icon": "magus_hat",
+            "stats": {
+                "level 1": {
+                    "armor": 5,
+                    "mana_burst": 30
+                },
+                "level 2": {
+                    "armor": 8,
+                    "mana_burst": 45
+                },
+                "level 3": {
+                    "armor": 12,
+                    "mana_burst": 68
+                }
+            }
+        },
+        "magus_robes": {
+            "id": "magus_robes",
+            "name": "MAGUS_ROBES_NAME",
+            "category": "Torso",
+            "rarity": "Epic",
+            "equipment_set": "arcane_set",
+            "icon": "magus_robes",
+            "stats": {
+                "level 1": {
+                    "armor": 8,
+                    "mana_burst": 20
+                },
+                "level 2": {
+                    "armor": 12,
+                    "mana_burst": 30
+                },
+                "level 3": {
+                    "armor": 18,
+                    "mana_burst": 45
+                }
+            }
+        },
+        "magus_staff": {
+            "id": "magus_staff",
+            "name": "MAGUS_STAFF_NAME",
+            "category": "Weapon",
+            "rarity": "Epic",
+            "equipment_set": "arcane_set",
+            "icon": "magus_staff",
+            "stats": {
+                "level 1": {
+                    "min_magic_damage": 5,
+                    "max_magic_damage": 8,
+                    "mana_burst": 20
+                },
+                "level 2": {
+                    "min_magic_damage": 8,
+                    "max_magic_damage": 12,
+                    "mana_burst": 30
+                },
+                "level 3": {
+                    "min_magic_damage": 12,
+                    "max_magic_damage": 18,
+                    "mana_burst": 45
+                }
+            }
+        },
+        "mana_crystal": {
+            "id": "mana_crystal",
+            "name": "MANA_CRYSTAL_NAME",
+            "category": "Amulet",
+            "rarity": "Rare",
+            "equipment_set": "arcane_set",
+            "icon": "mana_crystal",
+            "stats": {
+                "level 1": {
+                    "mana_burst": 15
+                },
+                "level 2": {
+                    "mana_burst": 23
+                },
+                "level 3": {
+                    "mana_burst": 35
+                }
+            }
+        },
+        "ring_of_spellcasting": {
+            "id": "ring_of_spellcasting",
+            "name": "RING_OF_SPELLCASTING_NAME",
+            "category": "Ring",
+            "rarity": "Epic",
+            "equipment_set": "arcane_set",
+            "icon": "ring_of_spellcasting",
+            "stats": {
+                "level 1": {
+                    "mana_burst": 10,
+                    "damage_amplification": 10
+                },
+                "level 2": {
+                    "mana_burst": 15,
+                    "damage_amplification": 15
+                },
+                "level 3": {
+                    "mana_burst": 23,
+                    "damage_amplification": 23
+                }
+            }
+        },
+        "worn_wood_staff": {
+            "id": "worn_wood_staff",
+            "name": "WORN_WOOD_STAFF_NAME",
+            "category": "Weapon",
+            "rarity": "Legendary",
+            "equipment_set": "arcane_set",
+            "icon": "worn_wood_staff",
+            "stats": {
+                "level 1": {
+                    "min_magic_damage": 7,
+                    "max_magic_damage": 10,
+                    "mana_burst": 30
+                },
+                "level 2": {
+                    "min_magic_damage": 11,
+                    "max_magic_damage": 15,
+                    "mana_burst": 45
+                },
+                "level 3": {
+                    "min_magic_damage": 17,
+                    "max_magic_damage": 23,
+                    "mana_burst": 68
+                }
+            }
+        }
+    },
+    "beast": {
+        "bear_boots": {
+            "id": "bear_boots",
+            "name": "BEAR_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Rare",
+            "equipment_set": "beast_set",
+            "icon": "bear_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "enrage": 2
+                },
+                "level 2": {
+                    "armor": 4,
+                    "enrage": 3
+                },
+                "level 3": {
+                    "armor": 6,
+                    "enrage": 4
+                }
+            }
+        },
+        "bear_claw": {
+            "id": "bear_claw",
+            "name": "BEAR_CLAW_NAME",
+            "category": "Weapon",
+            "rarity": "Rare",
+            "equipment_set": "beast_set",
+            "icon": "bear_claws",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 4,
+                    "max_physical_damage": 6,
+                    "critical_chance": 15
+                },
+                "level 2": {
+                    "min_physical_damage": 6,
+                    "max_physical_damage": 9,
+                    "critical_chance": 23
+                },
+                "level 3": {
+                    "min_physical_damage": 9,
+                    "max_physical_damage": 14,
+                    "critical_chance": 35
+                }
+            }
+        },
+        "bear_headress": {
+            "id": "bear_headress",
+            "name": "BEAR_HEADRESS_NAME",
+            "category": "Head",
+            "rarity": "Rare",
+            "equipment_set": "beast_set",
+            "icon": "bear_headress",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "enrage": 2
+                },
+                "level 2": {
+                    "armor": 4,
+                    "enrage": 3
+                },
+                "level 3": {
+                    "armor": 6,
+                    "enrage": 4
+                }
+            }
+        },
+        "bear_pelt": {
+            "id": "bear_pelt",
+            "name": "BEAR_PELT_NAME",
+            "category": "Torso",
+            "rarity": "Rare",
+            "equipment_set": "beast_set",
+            "icon": "bear_pelt",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "enrage": 2
+                },
+                "level 2": {
+                    "armor": 4,
+                    "enrage": 3
+                },
+                "level 3": {
+                    "armor": 6,
+                    "enrage": 4
+                }
+            }
+        },
+        "behemoth_boots": {
+            "id": "behemoth_boots",
+            "name": "BEHEMOTH_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Legendary",
+            "equipment_set": "beast_set",
+            "icon": "behemoth_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 8,
+                    "swiftness": 10,
+                    "enrage": 2
+                },
+                "level 2": {
+                    "armor": 11,
+                    "swiftness": 15,
+                    "enrage": 3
+                },
+                "level 3": {
+                    "armor": 15,
+                    "swiftness": 23,
+                    "enrage": 4
+                }
+            }
+        },
+        "behemoth_head": {
+            "id": "behemoth_head",
+            "name": "BEHEMOTH_HEAD_NAME",
+            "category": "Head",
+            "rarity": "Legendary",
+            "equipment_set": "beast_set",
+            "icon": "behemoth_head",
+            "stats": {
+                "level 1": {
+                    "armor": 8,
+                    "enrage": 2
+                },
+                "level 2": {
+                    "armor": 11,
+                    "enrage": 3
+                },
+                "level 3": {
+                    "armor": 15,
+                    "enrage": 4
+                }
+            }
+        },
+        "behemoth_hide": {
+            "id": "behemoth_hide",
+            "name": "BEHEMOTH_HIDE_NAME",
+            "category": "Torso",
+            "rarity": "Legendary",
+            "equipment_set": "beast_set",
+            "icon": "behemoth_hide",
+            "stats": {
+                "level 1": {
+                    "armor": 8,
+                    "regeneration": 1,
+                    "enrage": 2
+                },
+                "level 2": {
+                    "armor": 11,
+                    "regeneration": 2,
+                    "enrage": 3
+                },
+                "level 3": {
+                    "armor": 15,
+                    "regeneration": 3,
+                    "enrage": 4
+                }
+            }
+        },
+        "fang_necklace": {
+            "id": "fang_necklace",
+            "name": "FANG_NECKLACE_NAME",
+            "category": "Amulet",
+            "rarity": "Uncommon",
+            "equipment_set": "beast_set",
+            "icon": "fang_collar",
+            "stats": {
+                "level 1": {
+                    "enrage": 1
+                },
+                "level 2": {
+                    "enrage": 2
+                },
+                "level 3": {
+                    "enrage": 3
+                }
+            }
+        },
+        "lion_head": {
+            "id": "lion_head",
+            "name": "LION_HEAD_NAME",
+            "category": "Head",
+            "rarity": "Epic",
+            "equipment_set": "beast_set",
+            "icon": "lion_head",
+            "stats": {
+                "level 1": {
+                    "armor": 6,
+                    "enrage": 2
+                },
+                "level 2": {
+                    "armor": 8,
+                    "enrage": 3
+                },
+                "level 3": {
+                    "armor": 11,
+                    "enrage": 4
+                }
+            }
+        },
+        "lion_heart": {
+            "id": "lion_heart",
+            "name": "LION_HEART_NAME",
+            "category": "Torso",
+            "rarity": "Epic",
+            "equipment_set": "beast_set",
+            "icon": "lion_heart",
+            "stats": {
+                "level 1": {
+                    "armor": 6,
+                    "enrage": 2
+                },
+                "level 2": {
+                    "armor": 8,
+                    "enrage": 3
+                },
+                "level 3": {
+                    "armor": 11,
+                    "enrage": 4
+                }
+            }
+        },
+        "lion_maw": {
+            "id": "lion_maw",
+            "name": "LION_MAW_NAME",
+            "category": "Weapon",
+            "rarity": "Epic",
+            "equipment_set": "beast_set",
+            "icon": "lion_maws",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 5,
+                    "max_physical_damage": 12,
+                    "lifesteal": 2
+                },
+                "level 2": {
+                    "min_physical_damage": 8,
+                    "max_physical_damage": 18,
+                    "lifesteal": 4
+                },
+                "level 3": {
+                    "min_physical_damage": 12,
+                    "max_physical_damage": 27,
+                    "lifesteal": 6
+                }
+            }
+        },
+        "lion_paws": {
+            "id": "lion_paws",
+            "name": "LION_PAWS_NAME",
+            "category": "Footwear",
+            "rarity": "Epic",
+            "equipment_set": "beast_set",
+            "icon": "lion_paws",
+            "stats": {
+                "level 1": {
+                    "armor": 6,
+                    "enrage": 2
+                },
+                "level 2": {
+                    "armor": 8,
+                    "enrage": 3
+                },
+                "level 3": {
+                    "armor": 11,
+                    "enrage": 4
+                }
+            }
+        },
+        "lion_shield": {
+            "id": "lion_shield",
+            "name": "LION_SHIELD_NAME",
+            "category": "Shield",
+            "rarity": "Epic",
+            "equipment_set": "beast_set",
+            "icon": "lion_shield",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "enrage": 2,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 6,
+                    "enrage": 3,
+                    "guard": 1
+                },
+                "level 3": {
+                    "armor": 8,
+                    "enrage": 4,
+                    "guard": 1
+                }
+            }
+        },
+        "wolf_ring": {
+            "id": "wolf_ring",
+            "name": "WOLF_RING_NAME",
+            "category": "Ring",
+            "rarity": "Rare",
+            "equipment_set": "beast_set",
+            "icon": "wolf_ring",
+            "stats": {
+                "level 1": {
+                    "damage_amplification": 12
+                },
+                "level 2": {
+                    "damage_amplification": 18
+                },
+                "level 3": {
+                    "damage_amplification": 27
+                }
+            }
+        }
+    },
+    "darkthorn": {
+        "amulet_of_regrowth": {
+            "id": "amulet_of_regrowth",
+            "name": "AMULET_OF_REGROWTH_NAME",
+            "category": "Amulet",
+            "rarity": "Epic",
+            "equipment_set": "darkthorn_set",
+            "icon": "amulet_of_regrowth",
+            "stats": {
+                "level 1": {
+                    "regeneration": 1,
+                    "thorns": 2
+                },
+                "level 2": {
+                    "regeneration": 2,
+                    "thorns": 4
+                },
+                "level 3": {
+                    "regeneration": 3,
+                    "thorns": 6
+                }
+            }
+        },
+        "blackrose_shield": {
+            "id": "blackrose_shield",
+            "name": "BLACKROSE_SHIELD_NAME",
+            "category": "Shield",
+            "rarity": "Legendary",
+            "equipment_set": "darkthorn_set",
+            "icon": "blackrose_shield",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "regeneration": 1,
+                    "thorns": 5,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 4,
+                    "regeneration": 2,
+                    "thorns": 8,
+                    "guard": 1
+                },
+                "level 3": {
+                    "armor": 6,
+                    "regeneration": 3,
+                    "thorns": 12,
+                    "guard": 1
+                }
+            }
+        },
+        "blighted_boots": {
+            "id": "blighted_boots",
+            "name": "BLIGHTED_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Epic",
+            "equipment_set": "darkthorn_set",
+            "icon": "blighted_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "swiftness": 10,
+                    "thorns": 4
+                },
+                "level 2": {
+                    "armor": 6,
+                    "swiftness": 15,
+                    "thorns": 6
+                },
+                "level 3": {
+                    "armor": 9,
+                    "swiftness": 23,
+                    "thorns": 9
+                }
+            }
+        },
+        "blighted_breastplate": {
+            "id": "blighted_breastplate",
+            "name": "BLIGHTED_BREASTPLATE_NAME",
+            "category": "Torso",
+            "rarity": "Epic",
+            "equipment_set": "darkthorn_set",
+            "icon": "blighted_breastplate",
+            "stats": {
+                "level 1": {
+                    "armor": 5,
+                    "thorns": 5
+                },
+                "level 2": {
+                    "armor": 8,
+                    "thorns": 8
+                },
+                "level 3": {
+                    "armor": 12,
+                    "thorns": 12
+                }
+            }
+        },
+        "blighted_crown": {
+            "id": "blighted_crown",
+            "name": "BLIGHTED_CROWN_NAME",
+            "category": "Head",
+            "rarity": "Epic",
+            "equipment_set": "darkthorn_set",
+            "icon": "blighted_crown",
+            "stats": {
+                "level 1": {
+                    "armor": 5,
+                    "thorns": 5
+                },
+                "level 2": {
+                    "armor": 8,
+                    "thorns": 8
+                },
+                "level 3": {
+                    "armor": 12,
+                    "thorns": 12
+                }
+            }
+        },
+        "blighted_shield": {
+            "id": "blighted_shield",
+            "name": "BLIGHTED_SHIELD_NAME",
+            "category": "Shield",
+            "rarity": "Epic",
+            "equipment_set": "darkthorn_set",
+            "icon": "blighted_shield",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "thorns": 4,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 6,
+                    "thorns": 6,
+                    "guard": 1
+                },
+                "level 3": {
+                    "armor": 9,
+                    "thorns": 9,
+                    "guard": 1
+                }
+            }
+        },
+        "bramble_crown": {
+            "id": "bramble_crown",
+            "name": "BRAMBLE_CROWN_NAME",
+            "category": "Head",
+            "rarity": "Legendary",
+            "equipment_set": "darkthorn_set",
+            "icon": "bramble_crown",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "regeneration": 1,
+                    "thorns": 6
+                },
+                "level 2": {
+                    "armor": 6,
+                    "regeneration": 2,
+                    "thorns": 9
+                },
+                "level 3": {
+                    "armor": 8,
+                    "regeneration": 3,
+                    "thorns": 14
+                }
+            }
+        },
+        "corrupted_vines": {
+            "id": "corrupted_vines",
+            "name": "CORRUPTED_VINES_NAME",
+            "category": "Torso",
+            "rarity": "Legendary",
+            "equipment_set": "darkthorn_set",
+            "icon": "corrupted_vines",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "regeneration": 1,
+                    "thorns": 6
+                },
+                "level 2": {
+                    "armor": 6,
+                    "regeneration": 2,
+                    "thorns": 9
+                },
+                "level 3": {
+                    "armor": 8,
+                    "regeneration": 3,
+                    "thorns": 14
+                }
+            }
+        },
+        "poisoned_branch": {
+            "id": "poisoned_branch",
+            "name": "POISONOUS_BRANCH_NAME",
+            "category": "Weapon",
+            "rarity": "Rare",
+            "equipment_set": "darkthorn_set",
+            "icon": "poisonous_branch",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 2,
+                    "max_physical_damage": 3,
+                    "poisonous": 5
+                },
+                "level 2": {
+                    "min_physical_damage": 4,
+                    "max_physical_damage": 5,
+                    "poisonous": 8
+                },
+                "level 3": {
+                    "min_physical_damage": 6,
+                    "max_physical_damage": 8,
+                    "poisonous": 12
+                }
+            }
+        },
+        "rose_whip": {
+            "id": "rose_whip",
+            "name": "ROSE_WHIP_NAME",
+            "category": "Weapon",
+            "rarity": "Epic",
+            "equipment_set": "darkthorn_set",
+            "icon": "rose_whip",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 4,
+                    "max_physical_damage": 9,
+                    "lifesteal": 1,
+                    "swiftness": 10
+                },
+                "level 2": {
+                    "min_physical_damage": 6,
+                    "max_physical_damage": 14,
+                    "lifesteal": 3,
+                    "swiftness": 15
+                },
+                "level 3": {
+                    "min_physical_damage": 9,
+                    "max_physical_damage": 21,
+                    "lifesteal": 5,
+                    "swiftness": 23
+                }
+            }
+        },
+        "thorny_ring": {
+            "id": "thorny_ring",
+            "name": "THORNY_RING_NAME",
+            "category": "Ring",
+            "rarity": "Uncommon",
+            "equipment_set": "darkthorn_set",
+            "icon": "thorny_ring",
+            "stats": {
+                "level 1": {
+                    "thorns": 2
+                },
+                "level 2": {
+                    "thorns": 4
+                },
+                "level 3": {
+                    "thorns": 6
+                }
+            }
+        },
+        "thorny_shield": {
+            "id": "thorny_shield",
+            "name": "THORNY_SHIELD_NAME",
+            "category": "Shield",
+            "rarity": "Uncommon",
+            "equipment_set": "darkthorn_set",
+            "icon": "thorny_shield",
+            "stats": {
+                "level 1": {
+                    "armor": 2,
+                    "thorns": 2,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 4,
+                    "thorns": 4,
+                    "guard": 1
+                },
+                "level 3": {
+                    "armor": 6,
+                    "thorns": 6,
+                    "guard": 1
+                }
+            }
+        },
+        "withered_boots": {
+            "id": "withered_boots",
+            "name": "WITHERED_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Rare",
+            "equipment_set": "darkthorn_set",
+            "icon": "withered_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 2,
+                    "swiftness": 10,
+                    "thorns": 2
+                },
+                "level 2": {
+                    "armor": 4,
+                    "swiftness": 15,
+                    "thorns": 4
+                },
+                "level 3": {
+                    "armor": 6,
+                    "swiftness": 23,
+                    "thorns": 6
+                }
+            }
+        },
+        "withered_breastplate": {
+            "id": "withered_breastplate",
+            "name": "WITHERED_BREASTPLATE_NAME",
+            "category": "Torso",
+            "rarity": "Rare",
+            "equipment_set": "darkthorn_set",
+            "icon": "withered_breastplate",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "thorns": 3
+                },
+                "level 2": {
+                    "armor": 6,
+                    "thorns": 5
+                },
+                "level 3": {
+                    "armor": 9,
+                    "thorns": 8
+                }
+            }
+        },
+        "withered_crown": {
+            "id": "withered_crown",
+            "name": "WITHERED_CROWN_NAME",
+            "category": "Head",
+            "rarity": "Rare",
+            "equipment_set": "darkthorn_set",
+            "icon": "withered_crown",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "thorns": 3
+                },
+                "level 2": {
+                    "armor": 6,
+                    "thorns": 5
+                },
+                "level 3": {
+                    "armor": 9,
+                    "thorns": 8
+                }
+            }
+        },
+        "withered_shield": {
+            "id": "withered_shield",
+            "name": "WITHERED_SHIELD_NAME",
+            "category": "Shield",
+            "rarity": "Rare",
+            "equipment_set": "darkthorn_set",
+            "icon": "withered_shield",
+            "stats": {
+                "level 1": {
+                    "armor": 2,
+                    "thorns": 3,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 4,
+                    "thorns": 5,
+                    "guard": 1
+                },
+                "level 3": {
+                    "armor": 6,
+                    "thorns": 8,
+                    "guard": 1
+                }
+            }
+        }
+    },
+    "faceless": {
+        "cultist_robes": {
+            "id": "cultist_robes",
+            "name": "CULTIST_ROBES_NAME",
+            "category": "Torso",
+            "rarity": "Rare",
+            "equipment_set": "faceless_set",
+            "icon": "cultist_robes",
+            "stats": {
+                "level 1": {
+                    "armor": 5,
+                    "dodge": 15
+                },
+                "level 2": {
+                    "armor": 8,
+                    "dodge": 23
+                },
+                "level 3": {
+                    "armor": 12,
+                    "dodge": 35
+                }
+            }
+        },
+        "cultist_shoes": {
+            "id": "cultist_shoes",
+            "name": "CULTIST_SHOES_NAME",
+            "category": "Footwear",
+            "rarity": "Rare",
+            "equipment_set": "faceless_set",
+            "icon": "cultist_shoes",
+            "stats": {
+                "level 1": {
+                    "armor": 6,
+                    "dodge": 10
+                },
+                "level 2": {
+                    "armor": 9,
+                    "dodge": 15
+                },
+                "level 3": {
+                    "armor": 14,
+                    "dodge": 23
+                }
+            }
+        },
+        "harvest_scythe": {
+            "id": "harvest_scythe",
+            "name": "HARVEST_SCYTHE_NAME",
+            "category": "Weapon",
+            "rarity": "Rare",
+            "equipment_set": "faceless_set",
+            "icon": "harvest_scythe",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 4,
+                    "max_physical_damage": 13
+                },
+                "level 2": {
+                    "min_physical_damage": 6,
+                    "max_physical_damage": 20
+                },
+                "level 3": {
+                    "min_physical_damage": 9,
+                    "max_physical_damage": 30
+                }
+            }
+        },
+        "leader_boots": {
+            "id": "leader_boots",
+            "name": "LEADER_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Epic",
+            "equipment_set": "faceless_set",
+            "icon": "leader_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 10,
+                    "dodge": 10
+                },
+                "level 2": {
+                    "armor": 15,
+                    "dodge": 15
+                },
+                "level 3": {
+                    "armor": 23,
+                    "dodge": 23
+                }
+            }
+        },
+        "leader_garb": {
+            "id": "leader_garb",
+            "name": "LEADER_GARB_NAME",
+            "category": "Torso",
+            "rarity": "Epic",
+            "equipment_set": "faceless_set",
+            "icon": "leader_garb",
+            "stats": {
+                "level 1": {
+                    "armor": 8,
+                    "dodge": 15
+                },
+                "level 2": {
+                    "armor": 12,
+                    "dodge": 23
+                },
+                "level 3": {
+                    "armor": 18,
+                    "dodge": 35
+                }
+            }
+        },
+        "mark_of_the_chosen_one": {
+            "id": "mark_of_the_chosen_one",
+            "name": "MARK_OF_THE_CHOSEN_ONE_NAME",
+            "category": "Ring",
+            "rarity": "Legendary",
+            "equipment_set": "faceless_set",
+            "icon": "mark_of_the_chosen_one",
+            "stats": {
+                "level 1": {
+                    "critical_chance": 10,
+                    "critical_damage": 20,
+                    "lifesteal": 3
+                },
+                "level 2": {
+                    "critical_chance": 15,
+                    "critical_damage": 30,
+                    "lifesteal": 5
+                },
+                "level 3": {
+                    "critical_chance": 23,
+                    "critical_damage": 45,
+                    "lifesteal": 7
+                }
+            }
+        },
+        "mask_of_the_endless": {
+            "id": "mask_of_the_endless",
+            "name": "MASK_OF_THE_ENDLESS_NAME",
+            "category": "Head",
+            "rarity": "Legendary",
+            "equipment_set": "faceless_set",
+            "icon": "mask_of_the_boundless",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "damage_amplification": 50
+                },
+                "level 2": {
+                    "armor": 5,
+                    "damage_amplification": 75
+                },
+                "level 3": {
+                    "armor": 8,
+                    "damage_amplification": 113
+                }
+            }
+        },
+        "mask_of_the_boundless": {
+            "id": "mask_of_the_boundless",
+            "name": "MASK_OF_THE_BOUNDLESS_NAME",
+            "category": "Head",
+            "rarity": "Epic",
+            "equipment_set": "faceless_set",
+            "icon": "mask_of_the_endless",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "critical_chance": 40
+                },
+                "level 2": {
+                    "armor": 5,
+                    "critical_chance": 60
+                },
+                "level 3": {
+                    "armor": 8,
+                    "critical_chance": 90
+                }
+            }
+        },
+        "mask_of_the_fearless": {
+            "id": "mask_of_the_fearless",
+            "name": "MASK_OF_THE_FEARLESS_NAME",
+            "category": "Head",
+            "rarity": "Rare",
+            "equipment_set": "faceless_set",
+            "icon": "mask_of_the_fearless",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "enrage": 2
+                },
+                "level 2": {
+                    "armor": 4,
+                    "enrage": 3
+                },
+                "level 3": {
+                    "armor": 6,
+                    "enrage": 4
+                }
+            }
+        },
+        "mask_of_the_helpless": {
+            "id": "mask_of_the_helpless",
+            "name": "MASK_OF_THE_HELPLESS_NAME",
+            "category": "Head",
+            "rarity": "Uncommon",
+            "equipment_set": "faceless_set",
+            "icon": "mask_of_the_helpless",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "luck": 10
+                },
+                "level 2": {
+                    "armor": 5,
+                    "luck": 15
+                },
+                "level 3": {
+                    "armor": 8,
+                    "luck": 23
+                }
+            }
+        },
+        "ritual_dagger": {
+            "id": "ritual_dagger",
+            "name": "RITUAL_DAGGER_NAME",
+            "category": "Weapon",
+            "rarity": "Epic",
+            "equipment_set": "faceless_set",
+            "icon": "ritual_dagger",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 4,
+                    "max_physical_damage": 5,
+                    "critical_chance": 20,
+                    "critical_damage": 20
+                },
+                "level 2": {
+                    "min_physical_damage": 6,
+                    "max_physical_damage": 8,
+                    "critical_chance": 30,
+                    "critical_damage": 30
+                },
+                "level 3": {
+                    "min_physical_damage": 9,
+                    "max_physical_damage": 12,
+                    "critical_chance": 45,
+                    "critical_damage": 45
+                }
+            }
+        },
+        "ritual_ring": {
+            "id": "ritual_ring",
+            "name": "RITUAL_RING_NAME",
+            "category": "Ring",
+            "rarity": "Uncommon",
+            "equipment_set": "faceless_set",
+            "icon": "ritual_ring",
+            "stats": {
+                "level 1": {
+                    "critical_chance": 10
+                },
+                "level 2": {
+                    "critical_chance": 15
+                },
+                "level 3": {
+                    "critical_chance": 23
+                }
+            }
+        },
+        "symbol_of_the_faceless": {
+            "id": "symbol_of_the_faceless",
+            "name": "SYMBOL_OF_THE_FACELESS_NAME",
+            "category": "Amulet",
+            "rarity": "Epic",
+            "equipment_set": "faceless_set",
+            "icon": "symbol_of_the_faceless",
+            "stats": {
+                "level 1": {
+                    "lifesteal": 1,
+                    "enrage": 1
+                },
+                "level 2": {
+                    "lifesteal": 3,
+                    "enrage": 2
+                },
+                "level 3": {
+                    "lifesteal": 5,
+                    "enrage": 3
+                }
+            }
+        }
+    },
+    "fae": {
+        "autumn_attire": {
+            "id": "autumn_attire",
+            "name": "AUTUMN_ATTIRE_NAME",
+            "category": "Torso",
+            "rarity": "Rare",
+            "equipment_set": "fae_set",
+            "icon": "autumn_attire",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "dodge": 10,
+                    "counterattack": 20
+                },
+                "level 2": {
+                    "armor": 6,
+                    "dodge": 15,
+                    "counterattack": 30
+                },
+                "level 3": {
+                    "armor": 9,
+                    "dodge": 23,
+                    "counterattack": 45
+                }
+            }
+        },
+        "autumn_boots": {
+            "id": "autumn_boots",
+            "name": "AUTUMN_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Rare",
+            "equipment_set": "fae_set",
+            "icon": "autumn_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 2,
+                    "dodge": 10,
+                    "swiftness": 12
+                },
+                "level 2": {
+                    "armor": 4,
+                    "dodge": 15,
+                    "swiftness": 18
+                },
+                "level 3": {
+                    "armor": 6,
+                    "dodge": 23,
+                    "swiftness": 27
+                }
+            }
+        },
+        "autumn_crown": {
+            "id": "autumn_crown",
+            "name": "AUTUMN_CROWN_NAME",
+            "category": "Head",
+            "rarity": "Rare",
+            "equipment_set": "fae_set",
+            "icon": "autumn_crown",
+            "stats": {
+                "level 1": {
+                    "armor": 5,
+                    "mana_burst": 15
+                },
+                "level 2": {
+                    "armor": 8,
+                    "mana_burst": 23
+                },
+                "level 3": {
+                    "armor": 12,
+                    "mana_burst": 35
+                }
+            }
+        },
+        "autumn_staff": {
+            "id": "autumn_staff",
+            "name": "AUTUMN_STAFF_NAME",
+            "category": "Weapon",
+            "rarity": "Rare",
+            "equipment_set": "fae_set",
+            "icon": "autumn_staff",
+            "stats": {
+                "level 1": {
+                    "min_magic_damage": 4,
+                    "max_magic_damage": 6,
+                    "damage_amplification": 10
+                },
+                "level 2": {
+                    "min_magic_damage": 6,
+                    "max_magic_damage": 9,
+                    "damage_amplification": 15
+                },
+                "level 3": {
+                    "min_magic_damage": 9,
+                    "max_magic_damage": 14,
+                    "damage_amplification": 23
+                }
+            }
+        },
+        "sentient_necklace": {
+            "id": "sentient_necklace",
+            "name": "SENTIENT_NECKLACE_NAME",
+            "category": "Amulet",
+            "rarity": "Uncommon",
+            "equipment_set": "fae_set",
+            "icon": "sentient_necklace",
+            "stats": {
+                "level 1": {
+                    "swiftness": 5
+                },
+                "level 2": {
+                    "swiftness": 8
+                },
+                "level 3": {
+                    "swiftness": 12
+                }
+            }
+        },
+        "sentient_ring": {
+            "id": "sentient_ring",
+            "name": "SENTIENT_RING_NAME",
+            "category": "Ring",
+            "rarity": "Rare",
+            "equipment_set": "fae_set",
+            "icon": "sentient_ring",
+            "stats": {
+                "level 1": {
+                    "mana_burst": 10,
+                    "swiftness": 5
+                },
+                "level 2": {
+                    "mana_burst": 15,
+                    "swiftness": 8
+                },
+                "level 3": {
+                    "mana_burst": 23,
+                    "swiftness": 12
+                }
+            }
+        },
+        "spring_boots": {
+            "id": "spring_boots",
+            "name": "SPRING_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Legendary",
+            "equipment_set": "fae_set",
+            "icon": "spring_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "dodge": 12,
+                    "swiftness": 20,
+                    "counterattack": 20
+                },
+                "level 2": {
+                    "armor": 6,
+                    "dodge": 18,
+                    "swiftness": 30,
+                    "counterattack": 30
+                },
+                "level 3": {
+                    "armor": 9,
+                    "dodge": 27,
+                    "swiftness": 45,
+                    "counterattack": 45
+                }
+            }
+        },
+        "spring_crown": {
+            "id": "spring_crown",
+            "name": "SPRING_CROWN_NAME",
+            "category": "Head",
+            "rarity": "Legendary",
+            "equipment_set": "fae_set",
+            "icon": "spring_crown",
+            "stats": {
+                "level 1": {
+                    "armor": 6,
+                    "dodge": 12,
+                    "mana_burst": 20,
+                    "counterattack": 20
+                },
+                "level 2": {
+                    "armor": 9,
+                    "dodge": 18,
+                    "mana_burst": 30,
+                    "counterattack": 30
+                },
+                "level 3": {
+                    "armor": 14,
+                    "dodge": 27,
+                    "mana_burst": 45,
+                    "counterattack": 45
+                }
+            }
+        },
+        "spring_staff": {
+            "id": "spring_staff",
+            "name": "SPRING_STAFF_NAME",
+            "category": "Weapon",
+            "rarity": "Legendary",
+            "equipment_set": "fae_set",
+            "icon": "spring_staff",
+            "stats": {
+                "level 1": {
+                    "min_magic_damage": 5,
+                    "max_magic_damage": 8,
+                    "mana_burst": 10,
+                    "swiftness": 10,
+                    "damage_amplification": 10
+                },
+                "level 2": {
+                    "min_magic_damage": 8,
+                    "max_magic_damage": 12,
+                    "mana_burst": 15,
+                    "swiftness": 15,
+                    "damage_amplification": 15
+                },
+                "level 3": {
+                    "min_magic_damage": 12,
+                    "max_magic_damage": 18,
+                    "mana_burst": 23,
+                    "swiftness": 23,
+                    "damage_amplification": 23
+                }
+            }
+        },
+        "summer_attire": {
+            "id": "summer_attire",
+            "name": "SUMMER_ATTIRE_NAME",
+            "category": "Torso",
+            "rarity": "Epic",
+            "equipment_set": "fae_set",
+            "icon": "summer_attire",
+            "stats": {
+                "level 1": {
+                    "armor": 5,
+                    "dodge": 15,
+                    "swiftness": 5,
+                    "counterattack": 15
+                },
+                "level 2": {
+                    "armor": 8,
+                    "dodge": 23,
+                    "swiftness": 8,
+                    "counterattack": 23
+                },
+                "level 3": {
+                    "armor": 12,
+                    "dodge": 35,
+                    "swiftness": 12,
+                    "counterattack": 35
+                }
+            }
+        },
+        "summer_boots": {
+            "id": "summer_boots",
+            "name": "SUMMER_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Epic",
+            "equipment_set": "fae_set",
+            "icon": "summer_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "dodge": 10,
+                    "swiftness": 15,
+                    "counterattack": 10
+                },
+                "level 2": {
+                    "armor": 5,
+                    "dodge": 15,
+                    "swiftness": 23,
+                    "counterattack": 15
+                },
+                "level 3": {
+                    "armor": 8,
+                    "dodge": 23,
+                    "swiftness": 35,
+                    "counterattack": 23
+                }
+            }
+        },
+        "summer_crown": {
+            "id": "summer_crown",
+            "name": "SUMMER_CROWN_NAME",
+            "category": "Head",
+            "rarity": "Epic",
+            "equipment_set": "fae_set",
+            "icon": "summer_crown",
+            "stats": {
+                "level 1": {
+                    "armor": 5,
+                    "mana_burst": 10,
+                    "swiftness": 15
+                },
+                "level 2": {
+                    "armor": 8,
+                    "mana_burst": 15,
+                    "swiftness": 23
+                },
+                "level 3": {
+                    "armor": 12,
+                    "mana_burst": 23,
+                    "swiftness": 35
+                }
+            }
+        },
+        "summer_staff": {
+            "id": "summer_staff",
+            "name": "SUMMER_STAFF_NAME",
+            "category": "Weapon",
+            "rarity": "Epic",
+            "equipment_set": "fae_set",
+            "icon": "summer_staff",
+            "stats": {
+                "level 1": {
+                    "min_magic_damage": 4,
+                    "max_magic_damage": 7,
+                    "swiftness": 10,
+                    "damage_amplification": 10
+                },
+                "level 2": {
+                    "min_magic_damage": 6,
+                    "max_magic_damage": 11,
+                    "swiftness": 15,
+                    "damage_amplification": 15
+                },
+                "level 3": {
+                    "min_magic_damage": 9,
+                    "max_magic_damage": 17,
+                    "swiftness": 23,
+                    "damage_amplification": 23
+                }
+            }
+        },
+        "winter_attire": {
+            "id": "winter_attire",
+            "name": "WINTER_ATTIRE_NAME",
+            "category": "Torso",
+            "rarity": "Uncommon",
+            "equipment_set": "fae_set",
+            "icon": "winter_attire",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "dodge": 10
+                },
+                "level 2": {
+                    "armor": 5,
+                    "dodge": 15
+                },
+                "level 3": {
+                    "armor": 8,
+                    "dodge": 23
+                }
+            }
+        },
+        "winter_boots": {
+            "id": "winter_boots",
+            "name": "WINTER_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Uncommon",
+            "equipment_set": "fae_set",
+            "icon": "winter_boots",
+            "stats": {
+                "level 1": {
+                    "dodge": 10,
+                    "swiftness": 10
+                },
+                "level 2": {
+                    "dodge": 15,
+                    "swiftness": 15
+                },
+                "level 3": {
+                    "dodge": 23,
+                    "swiftness": 23
+                }
+            }
+        },
+        "winter_crown": {
+            "id": "winter_crown",
+            "name": "WINTER_CROWN_NAME",
+            "category": "Head",
+            "rarity": "Uncommon",
+            "equipment_set": "fae_set",
+            "icon": "winter_crown",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "mana_burst": 10
+                },
+                "level 2": {
+                    "armor": 5,
+                    "mana_burst": 15
+                },
+                "level 3": {
+                    "armor": 8,
+                    "mana_burst": 23
+                }
+            }
+        },
+        "winter_staff": {
+            "id": "winter_staff",
+            "name": "WINTER_STAFF_NAME",
+            "category": "Weapon",
+            "rarity": "Uncommon",
+            "equipment_set": "fae_set",
+            "icon": "winter_staff",
+            "stats": {
+                "level 1": {
+                    "min_magic_damage": 2,
+                    "max_magic_damage": 5,
+                    "damage_amplification": 5
+                },
+                "level 2": {
+                    "min_magic_damage": 4,
+                    "max_magic_damage": 8,
+                    "damage_amplification": 8
+                },
+                "level 3": {
+                    "min_magic_damage": 6,
+                    "max_magic_damage": 12,
+                    "damage_amplification": 12
+                }
+            }
+        }
+    },
+    "ironclad": {
+        "arming_sword": {
+            "id": "arming_sword",
+            "name": "ARMING_SWORD_NAME",
+            "category": "Weapon",
+            "rarity": "Uncommon",
+            "equipment_set": "ironclad_set",
+            "icon": "arming_sword",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 4,
+                    "max_physical_damage": 6
+                },
+                "level 2": {
+                    "min_physical_damage": 6,
+                    "max_physical_damage": 9
+                },
+                "level 3": {
+                    "min_physical_damage": 9,
+                    "max_physical_damage": 14
+                }
+            }
+        },
+        "barbed_breastplate": {
+            "id": "barbed_breastplate",
+            "name": "BARBED_BREASTPLATE_NAME",
+            "category": "Torso",
+            "rarity": "Legendary",
+            "equipment_set": "ironclad_set",
+            "icon": "barbed_breastplate",
+            "stats": {
+                "level 1": {
+                    "armor": 10,
+                    "thorns": 5
+                },
+                "level 2": {
+                    "armor": 15,
+                    "thorns": 8
+                },
+                "level 3": {
+                    "armor": 23,
+                    "thorns": 12
+                }
+            }
+        },
+        "bastard_sword": {
+            "id": "bastard_sword",
+            "name": "BASTARD_SWORD_NAME",
+            "category": "Weapon",
+            "rarity": "Rare",
+            "equipment_set": "ironclad_set",
+            "icon": "bastard_sword",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 7,
+                    "max_physical_damage": 9
+                },
+                "level 2": {
+                    "min_physical_damage": 11,
+                    "max_physical_damage": 14
+                },
+                "level 3": {
+                    "min_physical_damage": 17,
+                    "max_physical_damage": 21
+                }
+            }
+        },
+        "horned_helmet": {
+            "id": "horned_helmet",
+            "name": "HORNED_HELMET_NAME",
+            "category": "Head",
+            "rarity": "Epic",
+            "equipment_set": "ironclad_set",
+            "icon": "horned_helmet",
+            "stats": {
+                "level 1": {
+                    "armor": 8,
+                    "thorns": 2
+                },
+                "level 2": {
+                    "armor": 12,
+                    "thorns": 4
+                },
+                "level 3": {
+                    "armor": 18,
+                    "thorns": 6
+                }
+            }
+        },
+        "iron_medal": {
+            "id": "iron_medal",
+            "name": "IRON_MEDAL_NAME",
+            "category": "Amulet",
+            "rarity": "Epic",
+            "equipment_set": "ironclad_set",
+            "icon": "iron_medal",
+            "stats": {
+                "level 1": {
+                    "guard": 1
+                },
+                "level 2": {
+                    "guard": 2
+                },
+                "level 3": {
+                    "guard": 3
+                }
+            }
+        },
+        "iron_ring": {
+            "id": "iron_ring",
+            "name": "IRON_RING_NAME",
+            "category": "Ring",
+            "rarity": "Uncommon",
+            "equipment_set": "ironclad_set",
+            "icon": "iron_ring",
+            "stats": {
+                "level 1": {
+                    "bludgeoning": 10
+                },
+                "level 2": {
+                    "bludgeoning": 15
+                },
+                "level 3": {
+                    "bludgeoning": 23
+                }
+            }
+        },
+        "knight_breastplate": {
+            "id": "knight_breastplate",
+            "name": "KNIGHT_BREASTPLATE_NAME",
+            "category": "Torso",
+            "rarity": "Rare",
+            "equipment_set": "ironclad_set",
+            "icon": "knight_breastplate",
+            "stats": {
+                "level 1": {
+                    "armor": 8
+                },
+                "level 2": {
+                    "armor": 12
+                },
+                "level 3": {
+                    "armor": 18
+                }
+            }
+        },
+        "knight_greaves": {
+            "id": "knight_greaves",
+            "name": "KNIGHT_GREAVES_NAME",
+            "category": "Footwear",
+            "rarity": "Rare",
+            "equipment_set": "ironclad_set",
+            "icon": "knight_greaves",
+            "stats": {
+                "level 1": {
+                    "armor": 8
+                },
+                "level 2": {
+                    "armor": 12
+                },
+                "level 3": {
+                    "armor": 18
+                }
+            }
+        },
+        "knight_helmet": {
+            "id": "knight_helmet",
+            "name": "KNIGHT_HELMET_NAME",
+            "category": "Head",
+            "rarity": "Rare",
+            "equipment_set": "ironclad_set",
+            "icon": "knight_helmet",
+            "stats": {
+                "level 1": {
+                    "armor": 8
+                },
+                "level 2": {
+                    "armor": 12
+                },
+                "level 3": {
+                    "armor": 18
+                }
+            }
+        },
+        "morning_start": {
+            "id": "morning_start",
+            "name": "MORNING_STAR_NAME",
+            "category": "Weapon",
+            "rarity": "Epic",
+            "equipment_set": "ironclad_set",
+            "icon": "morning_star",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 8,
+                    "max_physical_damage": 12,
+                    "bludgeoning": 10
+                },
+                "level 2": {
+                    "min_physical_damage": 12,
+                    "max_physical_damage": 18,
+                    "bludgeoning": 15
+                },
+                "level 3": {
+                    "min_physical_damage": 18,
+                    "max_physical_damage": 27,
+                    "bludgeoning": 23
+                }
+            }
+        },
+        "spiked_breastplate": {
+            "id": "spiked_breastplate",
+            "name": "SPIKED_BREASTPLATE_NAME",
+            "category": "Torso",
+            "rarity": "Epic",
+            "equipment_set": "ironclad_set",
+            "icon": "spiked_breastplate",
+            "stats": {
+                "level 1": {
+                    "armor": 8,
+                    "thorns": 2
+                },
+                "level 2": {
+                    "armor": 12,
+                    "thorns": 4
+                },
+                "level 3": {
+                    "armor": 18,
+                    "thorns": 6
+                }
+            }
+        },
+        "spiked_greaves": {
+            "id": "spiked_greaves",
+            "name": "SPIKED_GREAVSE_NAME",
+            "category": "Footwear",
+            "rarity": "Epic",
+            "equipment_set": "ironclad_set",
+            "icon": "spiked_greaves",
+            "stats": {
+                "level 1": {
+                    "armor": 8,
+                    "thorns": 2
+                },
+                "level 2": {
+                    "armor": 12,
+                    "thorns": 4
+                },
+                "level 3": {
+                    "armor": 18,
+                    "thorns": 6
+                }
+            }
+        },
+        "spiked_shield": {
+            "id": "spiked_shield",
+            "name": "SPIKED_SHIELD_NAME",
+            "category": "Shield",
+            "rarity": "Epic",
+            "equipment_set": "ironclad_set",
+            "icon": "spiked_shield",
+            "stats": {
+                "level 1": {
+                    "armor": 6,
+                    "thorns": 2,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 9,
+                    "thorns": 4,
+                    "guard": 1
+                },
+                "level 3": {
+                    "armor": 14,
+                    "thorns": 6,
+                    "guard": 1
+                }
+            }
+        },
+        "squire_chainmail": {
+            "id": "squire_chainmail",
+            "name": "SQUIRE_CHAINMAIL_NAME",
+            "category": "Torso",
+            "rarity": "Uncommon",
+            "equipment_set": "ironclad_set",
+            "icon": "squire_chainmail",
+            "stats": {
+                "level 1": {
+                    "armor": 5
+                },
+                "level 2": {
+                    "armor": 8
+                },
+                "level 3": {
+                    "armor": 12
+                }
+            }
+        },
+        "squire_greaves": {
+            "id": "squire_greaves",
+            "name": "SQUIRE_GREAVES_NAME",
+            "category": "Footwear",
+            "rarity": "Uncommon",
+            "equipment_set": "ironclad_set",
+            "icon": "squire_greaves",
+            "stats": {
+                "level 1": {
+                    "armor": 5
+                },
+                "level 2": {
+                    "armor": 8
+                },
+                "level 3": {
+                    "armor": 12
+                }
+            }
+        },
+        "squire_helmet": {
+            "id": "squire_helmet",
+            "name": "SQUIRE_HELMET_NAME",
+            "category": "Head",
+            "rarity": "Uncommon",
+            "equipment_set": "ironclad_set",
+            "icon": "squire_helmet",
+            "stats": {
+                "level 1": {
+                    "armor": 5
+                },
+                "level 2": {
+                    "armor": 8
+                },
+                "level 3": {
+                    "armor": 12
+                }
+            }
+        },
+        "steel_buckler": {
+            "id": "steel_buckler",
+            "name": "STEEL_BUCKLER_NAME",
+            "category": "Shield",
+            "rarity": "Uncommon",
+            "equipment_set": "ironclad_set",
+            "icon": "steel_buckler",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 6,
+                    "guard": 1
+                },
+                "level 3": {
+                    "armor": 9,
+                    "guard": 1
+                }
+            }
+        },
+        "steel_shield": {
+            "id": "steel_shield",
+            "name": "STEEL_SHIELD_NAME",
+            "category": "Shield",
+            "rarity": "Rare",
+            "equipment_set": "ironclad_set",
+            "icon": "steel_shield",
+            "stats": {
+                "level 1": {
+                    "armor": 6,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 9,
+                    "guard": 1
+                },
+                "level 3": {
+                    "armor": 14,
+                    "guard": 1
+                }
+            }
+        },
+        "tower_shield": {
+            "id": "tower_shield",
+            "name": "TOWER_SHIELD_NAME",
+            "category": "Shield",
+            "rarity": "Legendary",
+            "equipment_set": "ironclad_set",
+            "icon": "tower_shield",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "guard": 3
+                },
+                "level 2": {
+                    "armor": 6,
+                    "guard": 4
+                },
+                "level 3": {
+                    "armor": 9,
+                    "guard": 5
+                }
+            }
+        }
+    },
+    "legion": {
+        "ancient_breastplate": {
+            "id": "ancient_breastplate",
+            "name": "ANCIENT_BREASTPLATE_NAME",
+            "category": "Torso",
+            "rarity": "Uncommon",
+            "equipment_set": "legion_set",
+            "icon": "ancient_breastplate",
+            "stats": {
+                "level 1": {
+                    "armor": 5
+                },
+                "level 2": {
+                    "armor": 8
+                },
+                "level 3": {
+                    "armor": 12
+                }
+            }
+        },
+        "ancient_greaves": {
+            "id": "ancient_greaves",
+            "name": "ANCIENT_GREAVES_NAME",
+            "category": "Footwear",
+            "rarity": "Uncommon",
+            "equipment_set": "legion_set",
+            "icon": "ancient_greaves",
+            "stats": {
+                "level 1": {
+                    "armor": 5
+                },
+                "level 2": {
+                    "armor": 8
+                },
+                "level 3": {
+                    "armor": 12
+                }
+            }
+        },
+        "ancient_helmet": {
+            "id": "ancient_helmet",
+            "name": "ANCIENT_HELMET_NAME",
+            "category": "Head",
+            "rarity": "Uncommon",
+            "equipment_set": "legion_set",
+            "icon": "ancient_helmet",
+            "stats": {
+                "level 1": {
+                    "armor": 5
+                },
+                "level 2": {
+                    "armor": 8
+                },
+                "level 3": {
+                    "armor": 12
+                }
+            }
+        },
+        "bronze_buckler": {
+            "id": "bronze_buckler",
+            "name": "BRONZE_BUCKLER_NAME",
+            "category": "Shield",
+            "rarity": "Common",
+            "equipment_set": "legion_set",
+            "icon": "bronze_buckler",
+            "stats": {
+                "level 1": {
+                    "armor": 2,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 4,
+                    "guard": 1
+                },
+                "level 3": {
+                    "armor": 6,
+                    "guard": 1
+                }
+            }
+        },
+        "bronze_shield": {
+            "id": "bronze_shield",
+            "name": "BRONZE_SHIELD_NAME",
+            "category": "Shield",
+            "rarity": "Uncommon",
+            "equipment_set": "legion_set",
+            "icon": "bronze_shield",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 6,
+                    "guard": 1
+                },
+                "level 3": {
+                    "armor": 9,
+                    "guard": 1
+                }
+            }
+        },
+        "champion_ring": {
+            "id": "champion_ring",
+            "name": "CHAMPION_RING_NAME",
+            "category": "Ring",
+            "rarity": "Epic",
+            "equipment_set": "legion_set",
+            "icon": "champion_ring",
+            "stats": {
+                "level 1": {
+                    "enrage": 2,
+                    "damage_amplification": 5
+                },
+                "level 2": {
+                    "enrage": 3,
+                    "damage_amplification": 8
+                },
+                "level 3": {
+                    "enrage": 4,
+                    "damage_amplification": 12
+                }
+            }
+        },
+        "gladius": {
+            "id": "gladius",
+            "name": "GLADIUS_NAME",
+            "category": "Weapon",
+            "rarity": "Common",
+            "equipment_set": "legion_set",
+            "icon": "gladius",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 2,
+                    "max_physical_damage": 4
+                },
+                "level 2": {
+                    "min_physical_damage": 4,
+                    "max_physical_damage": 6
+                },
+                "level 3": {
+                    "min_physical_damage": 6,
+                    "max_physical_damage": 9
+                }
+            }
+        },
+        "healing_amulet": {
+            "id": "healing_amulet",
+            "name": "HEALING_AMULET_NAME",
+            "category": "Amulet",
+            "rarity": "Rare",
+            "equipment_set": "legion_set",
+            "icon": "health_amulet",
+            "stats": {
+                "level 1": {
+                    "regeneration": 1
+                },
+                "level 2": {
+                    "regeneration": 2
+                },
+                "level 3": {
+                    "regeneration": 3
+                }
+            }
+        },
+        "heros_breastplate": {
+            "id": "heros_breastplate",
+            "name": "HEROS_BREASTPLATE_NAME",
+            "category": "Torso",
+            "rarity": "Legendary",
+            "equipment_set": "legion_set",
+            "icon": "heros_breastplate",
+            "stats": {
+                "level 1": {
+                    "armor": 8,
+                    "enrage": 3
+                },
+                "level 2": {
+                    "armor": 11,
+                    "enrage": 4
+                },
+                "level 3": {
+                    "armor": 15,
+                    "enrage": 5
+                }
+            }
+        },
+        "heros_shield": {
+            "id": "heros_shield",
+            "name": "HEROS_SHIELD_NAME",
+            "category": "Shield",
+            "rarity": "Legendary",
+            "equipment_set": "legion_set",
+            "icon": "heros_shield",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "enrage": 2,
+                    "guard": 2
+                },
+                "level 2": {
+                    "armor": 6,
+                    "enrage": 3,
+                    "guard": 3
+                },
+                "level 3": {
+                    "armor": 8,
+                    "enrage": 4,
+                    "guard": 4
+                }
+            }
+        },
+        "historic_breastplate": {
+            "id": "historic_breastplate",
+            "name": "HISTORIC_BREASPLATE_NAME",
+            "category": "Torso",
+            "rarity": "Rare",
+            "equipment_set": "legion_set",
+            "icon": "historic_breastplate",
+            "stats": {
+                "level 1": {
+                    "armor": 6,
+                    "enrage": 1
+                },
+                "level 2": {
+                    "armor": 8,
+                    "enrage": 2
+                },
+                "level 3": {
+                    "armor": 11,
+                    "enrage": 3
+                }
+            }
+        },
+        "historic_greaves": {
+            "id": "historic_greaves",
+            "name": "HISTORIC_GREAVES_NAME",
+            "category": "Footwear",
+            "rarity": "Rare",
+            "equipment_set": "legion_set",
+            "icon": "historic_greaves",
+            "stats": {
+                "level 1": {
+                    "armor": 6,
+                    "enrage": 1
+                },
+                "level 2": {
+                    "armor": 8,
+                    "enrage": 2
+                },
+                "level 3": {
+                    "armor": 11,
+                    "enrage": 3
+                }
+            }
+        },
+        "historic_helmet": {
+            "id": "historic_helmet",
+            "name": "HISTORIC_HELMET_NAME",
+            "category": "Head",
+            "rarity": "Rare",
+            "equipment_set": "legion_set",
+            "icon": "historic_helmet",
+            "stats": {
+                "level 1": {
+                    "armor": 6,
+                    "enrage": 1
+                },
+                "level 2": {
+                    "armor": 8,
+                    "enrage": 2
+                },
+                "level 3": {
+                    "armor": 11,
+                    "enrage": 3
+                }
+            }
+        },
+        "legionnaire_shield": {
+            "id": "legionnaire_shield",
+            "name": "LEGIONNAIRE_SHIELD_NAME",
+            "category": "Shield",
+            "rarity": "Epic",
+            "equipment_set": "legion_set",
+            "icon": "legionnaire_shield",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "guard": 2
+                },
+                "level 2": {
+                    "armor": 6,
+                    "guard": 3
+                },
+                "level 3": {
+                    "armor": 9,
+                    "guard": 4
+                }
+            }
+        },
+        "old_breastplate": {
+            "id": "old_breastplate",
+            "name": "OLD_BREASTPLATE_NAME",
+            "category": "Torso",
+            "rarity": "Common",
+            "equipment_set": "legion_set",
+            "icon": "old_breastplate",
+            "stats": {
+                "level 1": {
+                    "armor": 3
+                },
+                "level 2": {
+                    "armor": 5
+                },
+                "level 3": {
+                    "armor": 8
+                }
+            }
+        },
+        "old_greaves": {
+            "id": "old_greaves",
+            "name": "OLD_GREAVES_NAME",
+            "category": "Footwear",
+            "rarity": "Common",
+            "equipment_set": "legion_set",
+            "icon": "old_greaves",
+            "stats": {
+                "level 1": {
+                    "armor": 3
+                },
+                "level 2": {
+                    "armor": 5
+                },
+                "level 3": {
+                    "armor": 8
+                }
+            }
+        },
+        "old_helmet": {
+            "id": "old_helmet",
+            "name": "OLD_HELMET_NAME",
+            "category": "Head",
+            "rarity": "Common",
+            "equipment_set": "legion_set",
+            "icon": "old_helmet",
+            "stats": {
+                "level 1": {
+                    "armor": 3
+                },
+                "level 2": {
+                    "armor": 5
+                },
+                "level 3": {
+                    "armor": 8
+                }
+            }
+        },
+        "spatha": {
+            "id": "spatha",
+            "name": "SPATHA_NAME",
+            "category": "Weapon",
+            "rarity": "Rare",
+            "equipment_set": "legion_set",
+            "icon": "spatha",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 6,
+                    "max_physical_damage": 10
+                },
+                "level 2": {
+                    "min_physical_damage": 9,
+                    "max_physical_damage": 15
+                },
+                "level 3": {
+                    "min_physical_damage": 14,
+                    "max_physical_damage": 23
+                }
+            }
+        },
+        "sword_of_the_hero": {
+            "id": "sword_of_the_hero",
+            "name": "HEROS_SWORD_NAME",
+            "category": "Weapon",
+            "rarity": "Legendary",
+            "equipment_set": "legion_set",
+            "icon": "sword_of_the_hero",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 10,
+                    "max_physical_damage": 15,
+                    "damage_amplification": 10
+                },
+                "level 2": {
+                    "min_physical_damage": 15,
+                    "max_physical_damage": 23,
+                    "damage_amplification": 15
+                },
+                "level 3": {
+                    "min_physical_damage": 23,
+                    "max_physical_damage": 35,
+                    "damage_amplification": 23
+                }
+            }
+        }
+    },
+    "mythic": {
+        "breastplate_of_orichalcum": {
+            "id": "breastplate_of_orichalcum",
+            "name": "ORICHALCHUM_BREASTPLATE_NAME",
+            "category": "Torso",
+            "rarity": "Mythic",
+            "equipment_set": "eternal_mythic",
+            "icon": "brestplate_of_orichalchum",
+            "stats": {
+                "level 1": {
+                    "armor": 30
+                },
+                "level 2": {
+                    "armor": 45
+                },
+                "level 3": {
+                    "armor": 68
+                }
+            }
+        },
+        "cloud_stepping_boots": {
+            "id": "cloud_stepping_boots",
+            "name": "CLOUD_STEPPING_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Mythic",
+            "equipment_set": "celestial_mythic",
+            "icon": "cloudstepping_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 2,
+                    "dodge": 12,
+                    "swiftness": 20,
+                    "counterattack": 100
+                },
+                "level 2": {
+                    "armor": 4,
+                    "dodge": 18,
+                    "swiftness": 30,
+                    "counterattack": 150
+                },
+                "level 3": {
+                    "armor": 6,
+                    "dodge": 27,
+                    "swiftness": 45,
+                    "counterattack": 225
+                }
+            }
+        },
+        "cyclopean_masterpiece": {
+            "id": "cyclopean_masterpiece",
+            "name": "CYCLOPEAN_MASTERPIECE_NAME",
+            "category": "Shield",
+            "rarity": "Mythic",
+            "equipment_set": "aegis_mythic",
+            "icon": "cyclopean_masterpiece",
+            "stats": {
+                "level 1": {
+                    "armor": 10,
+                    "thorns": 5,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 15,
+                    "thorns": 8,
+                    "guard": 1
+                },
+                "level 3": {
+                    "armor": 23,
+                    "thorns": 12,
+                    "guard": 1
+                }
+            }
+        },
+        "divine_visage": {
+            "id": "divine_visage",
+            "name": "DIVINE_VISAGE_NAME",
+            "category": "Head",
+            "rarity": "Mythic",
+            "equipment_set": "blessed_mythic",
+            "icon": "divine_visage",
+            "stats": {
+                "level 1": {
+                    "armor": 10,
+                    "regeneration": 1,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 13,
+                    "regeneration": 2,
+                    "guard": 2
+                },
+                "level 3": {
+                    "armor": 17,
+                    "regeneration": 3,
+                    "guard": 3
+                }
+            }
+        },
+        "dragon_scales": {
+            "id": "dragon_scales",
+            "name": "DRAGON_SCALES_NAME",
+            "category": "Torso",
+            "rarity": "Mythic",
+            "equipment_set": "draconic_mythic",
+            "icon": "dragon_scales",
+            "stats": {
+                "level 1": {
+                    "armor": 15,
+                    "enrage": 3
+                },
+                "level 2": {
+                    "armor": 20,
+                    "enrage": 4
+                },
+                "level 3": {
+                    "armor": 26,
+                    "enrage": 5
+                }
+            }
+        },
+        "evershining_diamond": {
+            "id": "evershining_diamond",
+            "name": "EVERSHINING_DIAMOND_NAME",
+            "category": "Ring",
+            "rarity": "Mythic",
+            "equipment_set": "luminous_mythic",
+            "icon": "evershining_diamond",
+            "stats": {
+                "level 1": {
+                    "luck": 50
+                },
+                "level 2": {
+                    "luck": 75
+                },
+                "level 3": {
+                    "luck": 113
+                }
+            }
+        },
+        "fated_sword": {
+            "id": "fated_sword",
+            "name": "FATED_SWORD_NAME",
+            "category": "Weapon",
+            "rarity": "Mythic",
+            "equipment_set": "unstoppable_mythic",
+            "icon": "fated_sword",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 15,
+                    "max_physical_damage": 20,
+                    "damage_amplification": 10
+                },
+                "level 2": {
+                    "min_physical_damage": 23,
+                    "max_physical_damage": 30,
+                    "damage_amplification": 15
+                },
+                "level 3": {
+                    "min_physical_damage": 35,
+                    "max_physical_damage": 45,
+                    "damage_amplification": 23
+                }
+            }
+        },
+        "forgotten_crown": {
+            "id": "forgotten_crown",
+            "name": "FORGOTTEN_CROWN_NAME",
+            "category": "Head",
+            "rarity": "Mythic",
+            "equipment_set": "doomed_mythic",
+            "icon": "forgotten_crown",
+            "stats": {
+                "level 1": {
+                    "armor": 6,
+                    "poisonous": 3,
+                    "thorns": 3,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 9,
+                    "poisonous": 5,
+                    "thorns": 5,
+                    "guard": 2
+                },
+                "level 3": {
+                    "armor": 14,
+                    "poisonous": 8,
+                    "thorns": 8,
+                    "guard": 3
+                }
+            }
+        },
+        "godslayer_dagger": {
+            "id": "godslayer_dagger",
+            "name": "GODSLAYER_DAGGER_NAME",
+            "category": "Weapon",
+            "rarity": "Mythic",
+            "equipment_set": "blasphemous_mythic",
+            "icon": "godslayer_dagger",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 7,
+                    "max_physical_damage": 9,
+                    "critical_chance": 20,
+                    "critical_damage": 100
+                },
+                "level 2": {
+                    "min_physical_damage": 11,
+                    "max_physical_damage": 14,
+                    "critical_chance": 30,
+                    "critical_damage": 150
+                },
+                "level 3": {
+                    "min_physical_damage": 17,
+                    "max_physical_damage": 21,
+                    "critical_chance": 45,
+                    "critical_damage": 225
+                }
+            }
+        },
+        "golden_fleece_cape": {
+            "id": "golden_fleece_cape",
+            "name": "GOLDEN_FLEECE_CAPE_NAME",
+            "category": "Torso",
+            "rarity": "Mythic",
+            "equipment_set": "golden_mythic",
+            "icon": "goldenfleece_cape",
+            "stats": {
+                "level 1": {
+                    "armor": 15,
+                    "dodge": 15,
+                    "counterattack": 30
+                },
+                "level 2": {
+                    "armor": 23,
+                    "dodge": 23,
+                    "counterattack": 45
+                },
+                "level 3": {
+                    "armor": 35,
+                    "dodge": 35,
+                    "counterattack": 68
+                }
+            }
+        },
+        "helm_of_conquest": {
+            "id": "helm_of_conquest",
+            "name": "HELM_OF_CONQUEST_NAME",
+            "category": "Head",
+            "rarity": "Mythic",
+            "equipment_set": "lord_mythic",
+            "icon": "helm_of_conquest",
+            "stats": {
+                "level 1": {
+                    "armor": 20,
+                    "damage_amplification": 20
+                },
+                "level 2": {
+                    "armor": 30,
+                    "damage_amplification": 30
+                },
+                "level 3": {
+                    "armor": 45,
+                    "damage_amplification": 45
+                }
+            }
+        },
+        "rainbow_jewels": {
+            "id": "rainbow_jewels",
+            "name": "RAINBOW_JEWELS_NAME",
+            "category": "Amulet",
+            "rarity": "Mythic",
+            "equipment_set": "polychrome_mythic",
+            "icon": "rainbow_jewels",
+            "stats": {
+                "level 1": {
+                    "regeneration": 1,
+                    "enrage": 1,
+                    "thorns": 1,
+                    "guard": 1
+                },
+                "level 2": {
+                    "regeneration": 2,
+                    "enrage": 2,
+                    "thorns": 2,
+                    "guard": 2
+                },
+                "level 3": {
+                    "regeneration": 3,
+                    "enrage": 3,
+                    "thorns": 4,
+                    "guard": 3
+                }
+            }
+        },
+        "sacred_chain": {
+            "id": "sacred_chain",
+            "name": "SACRED_CHAIN_NAME",
+            "category": "Amulet",
+            "rarity": "Mythic",
+            "equipment_set": "chained_mythic",
+            "icon": "sacred_chain",
+            "stats": {
+                "level 1": {
+                    "regeneration": 3
+                },
+                "level 2": {
+                    "regeneration": 4
+                },
+                "level 3": {
+                    "regeneration": 5
+                }
+            }
+        },
+        "scepter_of_the_devil": {
+            "id": "scepter_of_the_devil",
+            "name": "SCEPTER_OF_THE_DEVIL_NAME",
+            "category": "Weapon",
+            "rarity": "Mythic",
+            "equipment_set": "infernal_mythic",
+            "icon": "scepter_of_the_devil",
+            "stats": {
+                "level 1": {
+                    "min_magic_damage": 11,
+                    "max_magic_damage": 13,
+                    "poisonous": 3,
+                    "bludgeoning": 15
+                },
+                "level 2": {
+                    "min_magic_damage": 17,
+                    "max_magic_damage": 20,
+                    "poisonous": 5,
+                    "bludgeoning": 23
+                },
+                "level 3": {
+                    "min_magic_damage": 26,
+                    "max_magic_damage": 30,
+                    "poisonous": 8,
+                    "bludgeoning": 35
+                }
+            }
+        },
+        "seal_of_the_burden": {
+            "id": "seal_of_the_burden",
+            "name": "SEAL_OF_THE_BURDEN_NAME",
+            "category": "Ring",
+            "rarity": "Mythic",
+            "equipment_set": "heavy_mythic",
+            "icon": "seal_of_the_burden",
+            "stats": {
+                "level 1": {
+                    "bludgeoning": 15,
+                    "guard": 1,
+                    "damage_amplification": 10
+                },
+                "level 2": {
+                    "bludgeoning": 23,
+                    "guard": 2,
+                    "damage_amplification": 15
+                },
+                "level 3": {
+                    "bludgeoning": 35,
+                    "guard": 3,
+                    "damage_amplification": 23
+                }
+            }
+        },
+        "seven_league_boots": {
+            "id": "seven_league_boots",
+            "name": "SEVEN_LEAGUE_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Mythic",
+            "equipment_set": "speedster_mythic",
+            "icon": "seven_league_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 7,
+                    "dodge": 12,
+                    "swiftness": 40
+                },
+                "level 2": {
+                    "armor": 11,
+                    "dodge": 18,
+                    "swiftness": 60
+                },
+                "level 3": {
+                    "armor": 17,
+                    "dodge": 27,
+                    "swiftness": 90
+                }
+            }
+        },
+        "soul_harvester": {
+            "id": "soul_harvester",
+            "name": "SOUL_HARVESTER_NAME",
+            "category": "Weapon",
+            "rarity": "Mythic",
+            "equipment_set": "psychopomp_mythic",
+            "icon": "soul_harvester",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 13,
+                    "max_physical_damage": 19,
+                    "lifesteal": 3
+                },
+                "level 2": {
+                    "min_physical_damage": 20,
+                    "max_physical_damage": 29,
+                    "lifesteal": 5
+                },
+                "level 3": {
+                    "min_physical_damage": 30,
+                    "max_physical_damage": 44,
+                    "lifesteal": 7
+                }
+            }
+        },
+        "sun_and_moon_shield": {
+            "id": "sun_and_moon_shield",
+            "name": "SUN_AND_MOON_SHIELD_NAME",
+            "category": "Shield",
+            "rarity": "Mythic",
+            "equipment_set": "dual_mythic",
+            "icon": "sun_and_moon_shield",
+            "stats": {
+                "level 1": {
+                    "armor": 20,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 30,
+                    "guard": 1
+                },
+                "level 3": {
+                    "armor": 45,
+                    "guard": 1
+                }
+            }
+        },
+        "the_oldest_staff": {
+            "id": "the_oldest_staff",
+            "name": "THE_OLDEST_STAFF_NAME",
+            "category": "Weapon",
+            "rarity": "Mythic",
+            "equipment_set": "ancestral_mythic",
+            "icon": "the_oldest_staff",
+            "stats": {
+                "level 1": {
+                    "min_magic_damage": 8,
+                    "max_magic_damage": 12,
+                    "mana_burst": 50
+                },
+                "level 2": {
+                    "min_magic_damage": 12,
+                    "max_magic_damage": 18,
+                    "mana_burst": 75
+                },
+                "level 3": {
+                    "min_magic_damage": 18,
+                    "max_magic_damage": 27,
+                    "mana_burst": 113
+                }
+            }
+        },
+        "unbreakable_mirror": {
+            "id": "unbreakable_mirror",
+            "name": "UNBREAKABLE_MIRROR_NAME",
+            "category": "Shield",
+            "rarity": "Mythic",
+            "equipment_set": "mirrored_mythic",
+            "icon": "unbreakable_mirror",
+            "stats": {
+                "level 1": {
+                    "armor": 10,
+                    "guard": 3
+                },
+                "level 2": {
+                    "armor": 15,
+                    "guard": 4
+                },
+                "level 3": {
+                    "armor": 23,
+                    "guard": 5
+                }
+            }
+        }
+    },
+    "occult": {
+        "hags_veil": {
+            "id": "hags_veil",
+            "name": "HAGS_VEIL_NAME",
+            "category": "Head",
+            "rarity": "Rare",
+            "equipment_set": "occult_set",
+            "icon": "hag_veil",
+            "stats": {
+                "level 1": {
+                    "armor": 2,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 4,
+                    "guard": 2
+                },
+                "level 3": {
+                    "armor": 6,
+                    "guard": 3
+                }
+            }
+        },
+        "hag_cape": {
+            "id": "hag_cape",
+            "name": "HAG_CAPE_NAME",
+            "category": "Torso",
+            "rarity": "Rare",
+            "equipment_set": "occult_set",
+            "icon": "hag_cape",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "dodge": 10,
+                    "damage_amplification": 10
+                },
+                "level 2": {
+                    "armor": 5,
+                    "dodge": 15,
+                    "damage_amplification": 15
+                },
+                "level 3": {
+                    "armor": 8,
+                    "dodge": 23,
+                    "damage_amplification": 23
+                }
+            }
+        },
+        "hag_shoes": {
+            "id": "hag_shoes",
+            "name": "HAG_SHOES_NAME",
+            "category": "Footwear",
+            "rarity": "Rare",
+            "equipment_set": "occult_set",
+            "icon": "hag_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "dodge": 10,
+                    "swiftness": 10
+                },
+                "level 2": {
+                    "armor": 5,
+                    "dodge": 15,
+                    "swiftness": 15
+                },
+                "level 3": {
+                    "armor": 8,
+                    "dodge": 23,
+                    "swiftness": 23
+                }
+            }
+        },
+        "hag_staff": {
+            "id": "hag_staff",
+            "name": "HAG_STAFF_NAME",
+            "category": "Weapon",
+            "rarity": "Rare",
+            "equipment_set": "occult_set",
+            "icon": "hag_staff",
+            "stats": {
+                "level 1": {
+                    "min_magic_damage": 5,
+                    "max_magic_damage": 8,
+                    "bludgeoning": 10
+                },
+                "level 2": {
+                    "min_magic_damage": 8,
+                    "max_magic_damage": 12,
+                    "bludgeoning": 15
+                },
+                "level 3": {
+                    "min_magic_damage": 12,
+                    "max_magic_damage": 18,
+                    "bludgeoning": 23
+                }
+            }
+        },
+        "ring_of_enchanting": {
+            "id": "ring_of_enchanting",
+            "name": "RING_OF_ENCHANTING_NAME",
+            "category": "Ring",
+            "rarity": "Epic",
+            "equipment_set": "occult_set",
+            "icon": "ring_of_ecnhanting",
+            "stats": {
+                "level 1": {
+                    "poisonous": 3,
+                    "bludgeoning": 10
+                },
+                "level 2": {
+                    "poisonous": 5,
+                    "bludgeoning": 15
+                },
+                "level 3": {
+                    "poisonous": 8,
+                    "bludgeoning": 23
+                }
+            }
+        },
+        "vial_necklace": {
+            "id": "vial_necklace",
+            "name": "VIAL_NECKLACE_NAME",
+            "category": "Amulet",
+            "rarity": "Rare",
+            "equipment_set": "occult_set",
+            "icon": "vial_necklace",
+            "stats": {
+                "level 1": {
+                    "damage_amplification": 12
+                },
+                "level 2": {
+                    "damage_amplification": 18
+                },
+                "level 3": {
+                    "damage_amplification": 27
+                }
+            }
+        },
+        "wicked_hat": {
+            "id": "wicked_hat",
+            "name": "WICKED_HAT_NAME",
+            "category": "Head",
+            "rarity": "Legendary",
+            "equipment_set": "occult_set",
+            "icon": "wicked_hat",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "mana_burst": 30,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 5,
+                    "mana_burst": 45,
+                    "guard": 2
+                },
+                "level 3": {
+                    "armor": 8,
+                    "mana_burst": 68,
+                    "guard": 3
+                }
+            }
+        },
+        "wicked_robes": {
+            "id": "wicked_robes",
+            "name": "WICKED_ROBES_NAME",
+            "category": "Torso",
+            "rarity": "Legendary",
+            "equipment_set": "occult_set",
+            "icon": "wicked_robes",
+            "stats": {
+                "level 1": {
+                    "armor": 5,
+                    "dodge": 15,
+                    "damage_amplification": 25
+                },
+                "level 2": {
+                    "armor": 8,
+                    "dodge": 23,
+                    "damage_amplification": 38
+                },
+                "level 3": {
+                    "armor": 12,
+                    "dodge": 35,
+                    "damage_amplification": 57
+                }
+            }
+        },
+        "witchs_mask": {
+            "id": "witchs_mask",
+            "name": "WITCHS_MASK_NAME",
+            "category": "Head",
+            "rarity": "Epic",
+            "equipment_set": "occult_set",
+            "icon": "witch_mask",
+            "stats": {
+                "level 1": {
+                    "armor": 6,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 9,
+                    "guard": 2
+                },
+                "level 3": {
+                    "armor": 14,
+                    "guard": 3
+                }
+            }
+        },
+        "witch_boots": {
+            "id": "witch_boots",
+            "name": "WITCH_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Epic",
+            "equipment_set": "occult_set",
+            "icon": "witch_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "dodge": 10,
+                    "swiftness": 20
+                },
+                "level 2": {
+                    "armor": 5,
+                    "dodge": 15,
+                    "swiftness": 30
+                },
+                "level 3": {
+                    "armor": 8,
+                    "dodge": 23,
+                    "swiftness": 45
+                }
+            }
+        },
+        "witch_robes": {
+            "id": "witch_robes",
+            "name": "WITCH_ROBES_NAME",
+            "category": "Torso",
+            "rarity": "Epic",
+            "equipment_set": "occult_set",
+            "icon": "witch_robes",
+            "stats": {
+                "level 1": {
+                    "armor": 5,
+                    "dodge": 10,
+                    "damage_amplification": 15
+                },
+                "level 2": {
+                    "armor": 8,
+                    "dodge": 15,
+                    "damage_amplification": 23
+                },
+                "level 3": {
+                    "armor": 12,
+                    "dodge": 23,
+                    "damage_amplification": 35
+                }
+            }
+        },
+        "witch_staff": {
+            "id": "witch_staff",
+            "name": "WITCH_STAFF_NAME",
+            "category": "Weapon",
+            "rarity": "Epic",
+            "equipment_set": "occult_set",
+            "icon": "witch_staff",
+            "stats": {
+                "level 1": {
+                    "min_magic_damage": 7,
+                    "max_magic_damage": 12,
+                    "bludgeoning": 15
+                },
+                "level 2": {
+                    "min_magic_damage": 11,
+                    "max_magic_damage": 18,
+                    "bludgeoning": 23
+                },
+                "level 3": {
+                    "min_magic_damage": 17,
+                    "max_magic_damage": 27,
+                    "bludgeoning": 35
+                }
+            }
+        }
+    },
+    "rogue": {
+        "assassin_cloak": {
+            "id": "assassin_cloak",
+            "name": "ASSASSIN_CLOAK_NAME",
+            "category": "Torso",
+            "rarity": "Rare",
+            "equipment_set": "rogue_set",
+            "icon": "assassin_cloak",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "dodge": 12,
+                    "counterattack": 20
+                },
+                "level 2": {
+                    "armor": 5,
+                    "dodge": 18,
+                    "counterattack": 30
+                },
+                "level 3": {
+                    "armor": 8,
+                    "dodge": 27,
+                    "counterattack": 45
+                }
+            }
+        },
+        "assassin_mask": {
+            "id": "assassin_mask",
+            "name": "ASSASSIN_MASK_NAME",
+            "category": "Head",
+            "rarity": "Rare",
+            "equipment_set": "rogue_set",
+            "icon": "assassin_mask",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "dodge": 10,
+                    "critical_chance": 10
+                },
+                "level 2": {
+                    "armor": 5,
+                    "dodge": 15,
+                    "critical_chance": 15
+                },
+                "level 3": {
+                    "armor": 8,
+                    "dodge": 23,
+                    "critical_chance": 23
+                }
+            }
+        },
+        "claw_boots": {
+            "id": "claw_boots",
+            "name": "CLAW_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Legendary",
+            "equipment_set": "rogue_set",
+            "icon": "claw_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "dodge": 12,
+                    "critical_damage": 20,
+                    "swiftness": 20
+                },
+                "level 2": {
+                    "armor": 5,
+                    "dodge": 18,
+                    "critical_damage": 30,
+                    "swiftness": 30
+                },
+                "level 3": {
+                    "armor": 8,
+                    "dodge": 27,
+                    "critical_damage": 45,
+                    "swiftness": 45
+                }
+            }
+        },
+        "dueling_dagger": {
+            "id": "dueling_dagger",
+            "name": "DUELING_DAGGER_NAME",
+            "category": "Weapon",
+            "rarity": "Rare",
+            "equipment_set": "rogue_set",
+            "icon": "dueling_dagger",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 3,
+                    "max_physical_damage": 4,
+                    "critical_chance": 10,
+                    "counterattack": 20
+                },
+                "level 2": {
+                    "min_physical_damage": 5,
+                    "max_physical_damage": 6,
+                    "critical_chance": 15,
+                    "counterattack": 30
+                },
+                "level 3": {
+                    "min_physical_damage": 8,
+                    "max_physical_damage": 9,
+                    "critical_chance": 23,
+                    "counterattack": 45
+                }
+            }
+        },
+        "estoc": {
+            "id": "estoc",
+            "name": "ESTOC_NAME",
+            "category": "Weapon",
+            "rarity": "Epic",
+            "equipment_set": "rogue_set",
+            "icon": "estoc",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 5,
+                    "max_physical_damage": 8,
+                    "critical_chance": 20
+                },
+                "level 2": {
+                    "min_physical_damage": 8,
+                    "max_physical_damage": 12,
+                    "critical_chance": 30
+                },
+                "level 3": {
+                    "min_physical_damage": 12,
+                    "max_physical_damage": 18,
+                    "critical_chance": 45
+                }
+            }
+        },
+        "infiltrator_boots": {
+            "id": "infiltrator_boots",
+            "name": "INFILTRATOR_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Uncommon",
+            "equipment_set": "rogue_set",
+            "icon": "infiltrator_boots",
+            "stats": {
+                "level 1": {
+                    "critical_chance": 10,
+                    "swiftness": 10
+                },
+                "level 2": {
+                    "critical_chance": 15,
+                    "swiftness": 15
+                },
+                "level 3": {
+                    "critical_chance": 23,
+                    "swiftness": 23
+                }
+            }
+        },
+        "infiltrator_cloak": {
+            "id": "infiltrator_cloak",
+            "name": "INFILTRATOR_CLOAK_NAME",
+            "category": "Torso",
+            "rarity": "Uncommon",
+            "equipment_set": "rogue_set",
+            "icon": "infiltrator_cloak",
+            "stats": {
+                "level 1": {
+                    "armor": 2,
+                    "dodge": 15
+                },
+                "level 2": {
+                    "armor": 4,
+                    "dodge": 23
+                },
+                "level 3": {
+                    "armor": 6,
+                    "dodge": 35
+                }
+            }
+        },
+        "nights_blade": {
+            "id": "nights_blade",
+            "name": "NIGHTS_BLADE_NAME",
+            "category": "Weapon",
+            "rarity": "Legendary",
+            "equipment_set": "rogue_set",
+            "icon": "nights_blade",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 5,
+                    "max_physical_damage": 7,
+                    "critical_chance": 20,
+                    "critical_damage": 40
+                },
+                "level 2": {
+                    "min_physical_damage": 8,
+                    "max_physical_damage": 11,
+                    "critical_chance": 30,
+                    "critical_damage": 60
+                },
+                "level 3": {
+                    "min_physical_damage": 12,
+                    "max_physical_damage": 17,
+                    "critical_chance": 45,
+                    "critical_damage": 90
+                }
+            }
+        },
+        "opal_amulet": {
+            "id": "opal_amulet",
+            "name": "OPAL_AMULET_NAME",
+            "category": "Amulet",
+            "rarity": "Rare",
+            "equipment_set": "rogue_set",
+            "icon": "opal_amulet",
+            "stats": {
+                "level 1": {
+                    "critical_damage": 30
+                },
+                "level 2": {
+                    "critical_damage": 45
+                },
+                "level 3": {
+                    "critical_damage": 68
+                }
+            }
+        },
+        "parrying_dagger": {
+            "id": "parrying_dagger",
+            "name": "PARRYING_DAGGER_NAME",
+            "category": "Weapon",
+            "rarity": "Uncommon",
+            "equipment_set": "rogue_set",
+            "icon": "parrying_dagger",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 3,
+                    "max_physical_damage": 4,
+                    "counterattack": 20
+                },
+                "level 2": {
+                    "min_physical_damage": 5,
+                    "max_physical_damage": 6,
+                    "counterattack": 30
+                },
+                "level 3": {
+                    "min_physical_damage": 8,
+                    "max_physical_damage": 9,
+                    "counterattack": 45
+                }
+            }
+        },
+        "ruby_ring": {
+            "id": "ruby_ring",
+            "name": "RUBY_RING_NAME",
+            "category": "Ring",
+            "rarity": "Epic",
+            "equipment_set": "rogue_set",
+            "icon": "ruby_ring",
+            "stats": {
+                "level 1": {
+                    "lifesteal": 3
+                },
+                "level 2": {
+                    "lifesteal": 5
+                },
+                "level 3": {
+                    "lifesteal": 7
+                }
+            }
+        },
+        "shadow_boots": {
+            "id": "shadow_boots",
+            "name": "SHADOW_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Epic",
+            "equipment_set": "rogue_set",
+            "icon": "shadow_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "critical_chance": 10,
+                    "swiftness": 15
+                },
+                "level 2": {
+                    "armor": 5,
+                    "critical_chance": 15,
+                    "swiftness": 23
+                },
+                "level 3": {
+                    "armor": 8,
+                    "critical_chance": 23,
+                    "swiftness": 35
+                }
+            }
+        },
+        "shadow_mask": {
+            "id": "shadow_mask",
+            "name": "SHADOW_MASK_NAME",
+            "category": "Head",
+            "rarity": "Epic",
+            "equipment_set": "rogue_set",
+            "icon": "shadow_mask",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "dodge": 10,
+                    "critical_chance": 20,
+                    "critical_damage": 10
+                },
+                "level 2": {
+                    "armor": 5,
+                    "dodge": 15,
+                    "critical_chance": 30,
+                    "critical_damage": 15
+                },
+                "level 3": {
+                    "armor": 8,
+                    "dodge": 23,
+                    "critical_chance": 45,
+                    "critical_damage": 23
+                }
+            }
+        },
+        "stealth_dagger": {
+            "id": "stealth_dagger",
+            "name": "STEALTH_DAGGER_NAME",
+            "category": "Weapon",
+            "rarity": "Common",
+            "equipment_set": "rogue_set",
+            "icon": "stealth_dagger",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 2,
+                    "max_physical_damage": 3,
+                    "critical_chance": 8
+                },
+                "level 2": {
+                    "min_physical_damage": 4,
+                    "max_physical_damage": 5,
+                    "critical_chance": 12
+                },
+                "level 3": {
+                    "min_physical_damage": 6,
+                    "max_physical_damage": 8,
+                    "critical_chance": 18
+                }
+            }
+        },
+        "thief_boots": {
+            "id": "thief_boots",
+            "name": "THIEF_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Common",
+            "equipment_set": "rogue_set",
+            "icon": "thief_boots",
+            "stats": {
+                "level 1": {
+                    "critical_chance": 10,
+                    "swiftness": 3
+                },
+                "level 2": {
+                    "critical_chance": 15,
+                    "swiftness": 5
+                },
+                "level 3": {
+                    "critical_chance": 23,
+                    "swiftness": 8
+                }
+            }
+        },
+        "thief_mask": {
+            "id": "thief_mask",
+            "name": "THIEF_MASK_NAME",
+            "category": "Head",
+            "rarity": "Common",
+            "equipment_set": "rogue_set",
+            "icon": "thief_mask",
+            "stats": {
+                "level 1": {
+                    "dodge": 10,
+                    "critical_chance": 5
+                },
+                "level 2": {
+                    "dodge": 15,
+                    "critical_chance": 8
+                },
+                "level 3": {
+                    "dodge": 23,
+                    "critical_chance": 12
+                }
+            }
+        }
+    },
+    "ronin": {
+        "bushido_breastplate": {
+            "id": "bushido_breastplate",
+            "name": "BUSHIDO_BREASTPLATE_NAME",
+            "category": "Torso",
+            "rarity": "Rare",
+            "equipment_set": "ronin_set",
+            "icon": "kabuto_breastplate",
+            "stats": {
+                "level 1": {
+                    "armor": 6,
+                    "dodge": 10
+                },
+                "level 2": {
+                    "armor": 9,
+                    "dodge": 15
+                },
+                "level 3": {
+                    "armor": 14,
+                    "dodge": 23
+                }
+            }
+        },
+        "bushido_helmet": {
+            "id": "bushido_helmet",
+            "name": "BUSHIDO_HELMET_NAME",
+            "category": "Head",
+            "rarity": "Rare",
+            "equipment_set": "ronin_set",
+            "icon": "kabuto_helmet",
+            "stats": {
+                "level 1": {
+                    "armor": 6,
+                    "dodge": 10
+                },
+                "level 2": {
+                    "armor": 9,
+                    "dodge": 15
+                },
+                "level 3": {
+                    "armor": 14,
+                    "dodge": 23
+                }
+            }
+        },
+        "bushido_sandals": {
+            "id": "bushido_sandals",
+            "name": "BUSHIDO_SANDALS_NAME",
+            "category": "Footwear",
+            "rarity": "Rare",
+            "equipment_set": "ronin_set",
+            "icon": "kabuto_sandals",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "dodge": 10,
+                    "swiftness": 10
+                },
+                "level 2": {
+                    "armor": 5,
+                    "dodge": 15,
+                    "swiftness": 15
+                },
+                "level 3": {
+                    "armor": 8,
+                    "dodge": 23,
+                    "swiftness": 23
+                }
+            }
+        },
+        "flow_ring": {
+            "id": "flow_ring",
+            "name": "FLOW_RING_NAME",
+            "category": "Ring",
+            "rarity": "Rare",
+            "equipment_set": "ronin_set",
+            "icon": "flow_ring",
+            "stats": {
+                "level 1": {
+                    "swiftness": 10,
+                    "counterattack": 10
+                },
+                "level 2": {
+                    "swiftness": 15,
+                    "counterattack": 15
+                },
+                "level 3": {
+                    "swiftness": 23,
+                    "counterattack": 23
+                }
+            }
+        },
+        "japamala": {
+            "id": "japamala",
+            "name": "JAPAMALA_NAME",
+            "category": "Amulet",
+            "rarity": "Legendary",
+            "equipment_set": "ronin_set",
+            "icon": "japamala",
+            "stats": {
+                "level 1": {
+                    "swiftness": 12,
+                    "guard": 1
+                },
+                "level 2": {
+                    "swiftness": 18,
+                    "guard": 2
+                },
+                "level 3": {
+                    "swiftness": 27,
+                    "guard": 3
+                }
+            }
+        },
+        "jitte": {
+            "id": "jitte",
+            "name": "JITTE_NAME",
+            "category": "Weapon",
+            "rarity": "Common",
+            "equipment_set": "ronin_set",
+            "icon": "jitte",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 2,
+                    "max_physical_damage": 3,
+                    "bludgeoning": 5
+                },
+                "level 2": {
+                    "min_physical_damage": 4,
+                    "max_physical_damage": 5,
+                    "bludgeoning": 8
+                },
+                "level 3": {
+                    "min_physical_damage": 6,
+                    "max_physical_damage": 8,
+                    "bludgeoning": 12
+                }
+            }
+        },
+        "kanabo": {
+            "id": "kanabo",
+            "name": "KANABO_NAME",
+            "category": "Weapon",
+            "rarity": "Rare",
+            "equipment_set": "ronin_set",
+            "icon": "kanabo",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 5,
+                    "max_physical_damage": 8,
+                    "bludgeoning": 10
+                },
+                "level 2": {
+                    "min_physical_damage": 8,
+                    "max_physical_damage": 12,
+                    "bludgeoning": 15
+                },
+                "level 3": {
+                    "min_physical_damage": 12,
+                    "max_physical_damage": 18,
+                    "bludgeoning": 23
+                }
+            }
+        },
+        "kappa_boots": {
+            "id": "kappa_boots",
+            "name": "KAPPA_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Uncommon",
+            "equipment_set": "ronin_set",
+            "icon": "kappa_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 2,
+                    "dodge": 5,
+                    "swiftness": 5
+                },
+                "level 2": {
+                    "armor": 4,
+                    "dodge": 8,
+                    "swiftness": 8
+                },
+                "level 3": {
+                    "armor": 6,
+                    "dodge": 12,
+                    "swiftness": 12
+                }
+            }
+        },
+        "kappa_breastplate": {
+            "id": "kappa_breastplate",
+            "name": "KAPPA_BREASTPLATE_NAME",
+            "category": "Torso",
+            "rarity": "Uncommon",
+            "equipment_set": "ronin_set",
+            "icon": "kappa_torso",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "dodge": 5
+                },
+                "level 2": {
+                    "armor": 6,
+                    "dodge": 8
+                },
+                "level 3": {
+                    "armor": 9,
+                    "dodge": 12
+                }
+            }
+        },
+        "kappa_helmet": {
+            "id": "kappa_helmet",
+            "name": "KAPPA_HELMET_NAME",
+            "category": "Head",
+            "rarity": "Uncommon",
+            "equipment_set": "ronin_set",
+            "icon": "kappa_helmet",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "dodge": 5,
+                    "swiftness": 5
+                },
+                "level 2": {
+                    "armor": 5,
+                    "dodge": 8,
+                    "swiftness": 8
+                },
+                "level 3": {
+                    "armor": 8,
+                    "dodge": 12,
+                    "swiftness": 12
+                }
+            }
+        },
+        "kogake": {
+            "id": "kogake",
+            "name": "KOGAKE_NAME",
+            "category": "Footwear",
+            "rarity": "Common",
+            "equipment_set": "ronin_set",
+            "icon": "kogake",
+            "stats": {
+                "level 1": {
+                    "armor": 2,
+                    "dodge": 5
+                },
+                "level 2": {
+                    "armor": 4,
+                    "dodge": 8
+                },
+                "level 3": {
+                    "armor": 6,
+                    "dodge": 12
+                }
+            }
+        },
+        "manchira": {
+            "id": "manchira",
+            "name": "MANCHIRA_NAME",
+            "category": "Torso",
+            "rarity": "Common",
+            "equipment_set": "ronin_set",
+            "icon": "manchira",
+            "stats": {
+                "level 1": {
+                    "armor": 2,
+                    "dodge": 5
+                },
+                "level 2": {
+                    "armor": 4,
+                    "dodge": 8
+                },
+                "level 3": {
+                    "armor": 6,
+                    "dodge": 12
+                }
+            }
+        },
+        "otsuchi": {
+            "id": "otsuchi",
+            "name": "OTSUCHI_NAME",
+            "category": "Weapon",
+            "rarity": "Legendary",
+            "equipment_set": "ronin_set",
+            "icon": "otsuchi",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 10,
+                    "max_physical_damage": 16,
+                    "bludgeoning": 15
+                },
+                "level 2": {
+                    "min_physical_damage": 15,
+                    "max_physical_damage": 24,
+                    "bludgeoning": 23
+                },
+                "level 3": {
+                    "min_physical_damage": 23,
+                    "max_physical_damage": 36,
+                    "bludgeoning": 35
+                }
+            }
+        },
+        "spirit_amulet": {
+            "id": "spirit_amulet",
+            "name": "SPIRIT_AMULET_NAME",
+            "category": "Amulet",
+            "rarity": "Epic",
+            "equipment_set": "ronin_set",
+            "icon": "spirit_amulet",
+            "stats": {
+                "level 1": {
+                    "swiftness": 20
+                },
+                "level 2": {
+                    "swiftness": 30
+                },
+                "level 3": {
+                    "swiftness": 45
+                }
+            }
+        },
+        "tengu_geta": {
+            "id": "tengu_geta",
+            "name": "TENGU_GETA_NAME",
+            "category": "Footwear",
+            "rarity": "Legendary",
+            "equipment_set": "ronin_set",
+            "icon": "tengu_geta",
+            "stats": {
+                "level 1": {
+                    "armor": 6,
+                    "dodge": 12,
+                    "swiftness": 25
+                },
+                "level 2": {
+                    "armor": 9,
+                    "dodge": 18,
+                    "swiftness": 38
+                },
+                "level 3": {
+                    "armor": 14,
+                    "dodge": 27,
+                    "swiftness": 57
+                }
+            }
+        },
+        "uchigatana": {
+            "id": "uchigatana",
+            "name": "UCHIGATANA_NAME",
+            "category": "Weapon",
+            "rarity": "Epic",
+            "equipment_set": "ronin_set",
+            "icon": "uchigatana",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 5,
+                    "max_physical_damage": 7,
+                    "critical_chance": 10,
+                    "swiftness": 10
+                },
+                "level 2": {
+                    "min_physical_damage": 8,
+                    "max_physical_damage": 11,
+                    "critical_chance": 15,
+                    "swiftness": 15
+                },
+                "level 3": {
+                    "min_physical_damage": 12,
+                    "max_physical_damage": 17,
+                    "critical_chance": 23,
+                    "swiftness": 23
+                }
+            }
+        }
+    },
+    "royal": {
+        "court_dagger": {
+            "id": "court_dagger",
+            "name": "COURT_DAGGER_NAME",
+            "category": "Weapon",
+            "rarity": "Rare",
+            "equipment_set": "royal_set",
+            "icon": "court_dagger",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 3,
+                    "max_physical_damage": 4,
+                    "poisonous": 4
+                },
+                "level 2": {
+                    "min_physical_damage": 5,
+                    "max_physical_damage": 6,
+                    "poisonous": 6
+                },
+                "level 3": {
+                    "min_physical_damage": 8,
+                    "max_physical_damage": 9,
+                    "poisonous": 9
+                }
+            }
+        },
+        "emperor_crown": {
+            "id": "emperor_crown",
+            "name": "EMPEROR_CROWN_NAME",
+            "category": "Head",
+            "rarity": "Legendary",
+            "equipment_set": "royal_set",
+            "icon": "emperor_crown",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "luck": 10,
+                    "guard": 1,
+                    "damage_amplification": 20
+                },
+                "level 2": {
+                    "armor": 5,
+                    "luck": 15,
+                    "guard": 2,
+                    "damage_amplification": 30
+                },
+                "level 3": {
+                    "armor": 8,
+                    "luck": 23,
+                    "guard": 3,
+                    "damage_amplification": 45
+                }
+            }
+        },
+        "heir_boots": {
+            "id": "heir_boots",
+            "name": "HEIR_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Rare",
+            "equipment_set": "royal_set",
+            "icon": "heir_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "luck": 5,
+                    "swiftness": 12
+                },
+                "level 2": {
+                    "armor": 5,
+                    "luck": 8,
+                    "swiftness": 18
+                },
+                "level 3": {
+                    "armor": 8,
+                    "luck": 12,
+                    "swiftness": 27
+                }
+            }
+        },
+        "heir_cape": {
+            "id": "heir_cape",
+            "name": "HEIR_CAPE_NAME",
+            "category": "Torso",
+            "rarity": "Rare",
+            "equipment_set": "royal_set",
+            "icon": "heir_cape",
+            "stats": {
+                "level 1": {
+                    "armor": 2,
+                    "dodge": 10,
+                    "luck": 5,
+                    "swiftness": 10
+                },
+                "level 2": {
+                    "armor": 4,
+                    "dodge": 15,
+                    "luck": 8,
+                    "swiftness": 15
+                },
+                "level 3": {
+                    "armor": 6,
+                    "dodge": 23,
+                    "luck": 12,
+                    "swiftness": 23
+                }
+            }
+        },
+        "heir_crown": {
+            "id": "heir_crown",
+            "name": "HEIR_CROWN_NAME",
+            "category": "Head",
+            "rarity": "Rare",
+            "equipment_set": "royal_set",
+            "icon": "heir_crown",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "luck": 10,
+                    "damage_amplification": 10
+                },
+                "level 2": {
+                    "armor": 5,
+                    "luck": 15,
+                    "damage_amplification": 15
+                },
+                "level 3": {
+                    "armor": 8,
+                    "luck": 23,
+                    "damage_amplification": 23
+                }
+            }
+        },
+        "monarch_boots": {
+            "id": "monarch_boots",
+            "name": "MONARCH_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Epic",
+            "equipment_set": "royal_set",
+            "icon": "monarch_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 5,
+                    "luck": 5,
+                    "swiftness": 15
+                },
+                "level 2": {
+                    "armor": 8,
+                    "luck": 8,
+                    "swiftness": 23
+                },
+                "level 3": {
+                    "armor": 12,
+                    "luck": 12,
+                    "swiftness": 35
+                }
+            }
+        },
+        "monarch_cape": {
+            "id": "monarch_cape",
+            "name": "MONARCH_CAPE_NAME",
+            "category": "Torso",
+            "rarity": "Epic",
+            "equipment_set": "royal_set",
+            "icon": "monarch_cape",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "dodge": 15,
+                    "luck": 5,
+                    "swiftness": 15
+                },
+                "level 2": {
+                    "armor": 5,
+                    "dodge": 23,
+                    "luck": 8,
+                    "swiftness": 23
+                },
+                "level 3": {
+                    "armor": 8,
+                    "dodge": 35,
+                    "luck": 12,
+                    "swiftness": 35
+                }
+            }
+        },
+        "monatch_crown": {
+            "id": "monatch_crown",
+            "name": "MONARCH_CROWN_NAME",
+            "category": "Head",
+            "rarity": "Epic",
+            "equipment_set": "royal_set",
+            "icon": "monarch_crown",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "luck": 10,
+                    "damage_amplification": 15
+                },
+                "level 2": {
+                    "armor": 6,
+                    "luck": 15,
+                    "damage_amplification": 23
+                },
+                "level 3": {
+                    "armor": 9,
+                    "luck": 23,
+                    "damage_amplification": 35
+                }
+            }
+        },
+        "ostentatious_necklace": {
+            "id": "ostentatious_necklace",
+            "name": "OSTENTATIOUS_NECKLACE_NAME",
+            "category": "Amulet",
+            "rarity": "Epic",
+            "equipment_set": "royal_set",
+            "icon": "ostentatious_necklace",
+            "stats": {
+                "level 1": {
+                    "luck": 5,
+                    "damage_amplification": 15
+                },
+                "level 2": {
+                    "luck": 8,
+                    "damage_amplification": 23
+                },
+                "level 3": {
+                    "luck": 12,
+                    "damage_amplification": 35
+                }
+            }
+        },
+        "ostentatious_ring": {
+            "id": "ostentatious_ring",
+            "name": "OSTENTATIOUS_RING_NAME",
+            "category": "Ring",
+            "rarity": "Rare",
+            "equipment_set": "royal_set",
+            "icon": "ostentatious_ring",
+            "stats": {
+                "level 1": {
+                    "luck": 10,
+                    "bludgeoning": 10
+                },
+                "level 2": {
+                    "luck": 15,
+                    "bludgeoning": 15
+                },
+                "level 3": {
+                    "luck": 23,
+                    "bludgeoning": 23
+                }
+            }
+        },
+        "regal_sword": {
+            "id": "regal_sword",
+            "name": "REGAL_SWORD_NAME",
+            "category": "Weapon",
+            "rarity": "Epic",
+            "equipment_set": "royal_set",
+            "icon": "regal_sword",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 8,
+                    "max_physical_damage": 10,
+                    "luck": 20
+                },
+                "level 2": {
+                    "min_physical_damage": 12,
+                    "max_physical_damage": 15,
+                    "luck": 30
+                },
+                "level 3": {
+                    "min_physical_damage": 18,
+                    "max_physical_damage": 23,
+                    "luck": 45
+                }
+            }
+        },
+        "regicide_dagger": {
+            "id": "regicide_dagger",
+            "name": "REGICIDE_DAGGER_NAME",
+            "category": "Weapon",
+            "rarity": "Legendary",
+            "equipment_set": "royal_set",
+            "icon": "regicide_dagger",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 4,
+                    "max_physical_damage": 6,
+                    "poisonous": 10
+                },
+                "level 2": {
+                    "min_physical_damage": 6,
+                    "max_physical_damage": 9,
+                    "poisonous": 15
+                },
+                "level 3": {
+                    "min_physical_damage": 9,
+                    "max_physical_damage": 14,
+                    "poisonous": 23
+                }
+            }
+        },
+        "unvaluable_necklace": {
+            "id": "unvaluable_necklace",
+            "name": "UNVALUABLE_NECKLACE_NAME",
+            "category": "Amulet",
+            "rarity": "Legendary",
+            "equipment_set": "royal_set",
+            "icon": "unvaluable_necklace",
+            "stats": {
+                "level 1": {
+                    "regeneration": 1,
+                    "luck": 10,
+                    "damage_amplification": 20
+                },
+                "level 2": {
+                    "regeneration": 2,
+                    "luck": 15,
+                    "damage_amplification": 30
+                },
+                "level 3": {
+                    "regeneration": 3,
+                    "luck": 23,
+                    "damage_amplification": 45
+                }
+            }
+        }
+    },
+    "saltwater": {
+        "commodore_boots": {
+            "id": "commodore_boots",
+            "name": "COMMODORE_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Epic",
+            "equipment_set": "saltwater_set",
+            "icon": "commodore_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "dodge": 10,
+                    "swiftness": 10,
+                    "damage_amplification": 10
+                },
+                "level 2": {
+                    "armor": 5,
+                    "dodge": 15,
+                    "swiftness": 15,
+                    "damage_amplification": 15
+                },
+                "level 3": {
+                    "armor": 8,
+                    "dodge": 23,
+                    "swiftness": 23,
+                    "damage_amplification": 23
+                }
+            }
+        },
+        "commodore_hat": {
+            "id": "commodore_hat",
+            "name": "COMMODORE_HAT_NAME",
+            "category": "Head",
+            "rarity": "Epic",
+            "equipment_set": "saltwater_set",
+            "icon": "commodore_hat",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "dodge": 10,
+                    "damage_amplification": 20
+                },
+                "level 2": {
+                    "armor": 5,
+                    "dodge": 15,
+                    "damage_amplification": 30
+                },
+                "level 3": {
+                    "armor": 8,
+                    "dodge": 23,
+                    "damage_amplification": 45
+                }
+            }
+        },
+        "commodore_jacket": {
+            "id": "commodore_jacket",
+            "name": "COMMODORE_JACKET_NAME",
+            "category": "Torso",
+            "rarity": "Epic",
+            "equipment_set": "saltwater_set",
+            "icon": "commodore_jacket",
+            "stats": {
+                "level 1": {
+                    "armor": 5,
+                    "dodge": 12,
+                    "counterattack": 10,
+                    "damage_amplification": 10
+                },
+                "level 2": {
+                    "armor": 8,
+                    "dodge": 18,
+                    "counterattack": 15,
+                    "damage_amplification": 15
+                },
+                "level 3": {
+                    "armor": 12,
+                    "dodge": 27,
+                    "counterattack": 23,
+                    "damage_amplification": 23
+                }
+            }
+        },
+        "corsair_boots": {
+            "id": "corsair_boots",
+            "name": "CORSAIR_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Rare",
+            "equipment_set": "saltwater_set",
+            "icon": "corsair_boots",
+            "stats": {
+                "level 1": {
+                    "dodge": 10,
+                    "swiftness": 10,
+                    "damage_amplification": 10
+                },
+                "level 2": {
+                    "dodge": 15,
+                    "swiftness": 15,
+                    "damage_amplification": 15
+                },
+                "level 3": {
+                    "dodge": 23,
+                    "swiftness": 23,
+                    "damage_amplification": 23
+                }
+            }
+        },
+        "corsair_clothes": {
+            "id": "corsair_clothes",
+            "name": "CORSAIR_CLOTHES_NAME",
+            "category": "Torso",
+            "rarity": "Rare",
+            "equipment_set": "saltwater_set",
+            "icon": "corsair_clothes",
+            "stats": {
+                "level 1": {
+                    "dodge": 12,
+                    "counterattack": 20,
+                    "damage_amplification": 12
+                },
+                "level 2": {
+                    "dodge": 18,
+                    "counterattack": 30,
+                    "damage_amplification": 18
+                },
+                "level 3": {
+                    "dodge": 27,
+                    "counterattack": 45,
+                    "damage_amplification": 27
+                }
+            }
+        },
+        "corsair_hat": {
+            "id": "corsair_hat",
+            "name": "CORSAIR_HAT_NAME",
+            "category": "Head",
+            "rarity": "Rare",
+            "equipment_set": "saltwater_set",
+            "icon": "corsair_hat",
+            "stats": {
+                "level 1": {
+                    "dodge": 10,
+                    "damage_amplification": 20
+                },
+                "level 2": {
+                    "dodge": 15,
+                    "damage_amplification": 30
+                },
+                "level 3": {
+                    "dodge": 23,
+                    "damage_amplification": 45
+                }
+            }
+        },
+        "poisoned_hook": {
+            "id": "poisoned_hook",
+            "name": "POISONED_HOOK_NAME",
+            "category": "Weapon",
+            "rarity": "Epic",
+            "equipment_set": "saltwater_set",
+            "icon": "poisoned_hook",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 2,
+                    "max_physical_damage": 3,
+                    "swiftness": 10,
+                    "poisonous": 5
+                },
+                "level 2": {
+                    "min_physical_damage": 4,
+                    "max_physical_damage": 5,
+                    "swiftness": 15,
+                    "poisonous": 8
+                },
+                "level 3": {
+                    "min_physical_damage": 6,
+                    "max_physical_damage": 8,
+                    "swiftness": 23,
+                    "poisonous": 12
+                }
+            }
+        },
+        "sabre": {
+            "id": "sabre",
+            "name": "SABRE_NAME",
+            "category": "Weapon",
+            "rarity": "Rare",
+            "equipment_set": "saltwater_set",
+            "icon": "sabre",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 4,
+                    "max_physical_damage": 7,
+                    "swiftness": 10
+                },
+                "level 2": {
+                    "min_physical_damage": 6,
+                    "max_physical_damage": 11,
+                    "swiftness": 15
+                },
+                "level 3": {
+                    "min_physical_damage": 9,
+                    "max_physical_damage": 17,
+                    "swiftness": 23
+                }
+            }
+        },
+        "stolen_necklace": {
+            "id": "stolen_necklace",
+            "name": "STOLEN_NECKLACE_NAME",
+            "category": "Amulet",
+            "rarity": "Rare",
+            "equipment_set": "saltwater_set",
+            "icon": "stolen_necklace",
+            "stats": {
+                "level 1": {
+                    "swiftness": 12
+                },
+                "level 2": {
+                    "swiftness": 18
+                },
+                "level 3": {
+                    "swiftness": 27
+                }
+            }
+        },
+        "stolen_ring": {
+            "id": "stolen_ring",
+            "name": "STOLEN_RING_NAME",
+            "category": "Ring",
+            "rarity": "Epic",
+            "equipment_set": "saltwater_set",
+            "icon": "stolen_ring",
+            "stats": {
+                "level 1": {
+                    "damage_amplification": 20
+                },
+                "level 2": {
+                    "damage_amplification": 30
+                },
+                "level 3": {
+                    "damage_amplification": 45
+                }
+            }
+        },
+        "treasure_necklace": {
+            "id": "treasure_necklace",
+            "name": "TREASURE_NECKLACE_NAME",
+            "category": "Amulet",
+            "rarity": "Legendary",
+            "equipment_set": "saltwater_set",
+            "icon": "treasure_necklace",
+            "stats": {
+                "level 1": {
+                    "swiftness": 15,
+                    "damage_amplification": 15
+                },
+                "level 2": {
+                    "swiftness": 23,
+                    "damage_amplification": 23
+                },
+                "level 3": {
+                    "swiftness": 35,
+                    "damage_amplification": 35
+                }
+            }
+        },
+        "treasure_ring": {
+            "id": "treasure_ring",
+            "name": "TREASURE_RING_NAME",
+            "category": "Ring",
+            "rarity": "Legendary",
+            "equipment_set": "saltwater_set",
+            "icon": "treasure_ring",
+            "stats": {
+                "level 1": {
+                    "damage_amplification": 30
+                },
+                "level 2": {
+                    "damage_amplification": 45
+                },
+                "level 3": {
+                    "damage_amplification": 68
+                }
+            }
+        }
+    },
+    "sylvan": {
+        "boots_of_the_wanderer": {
+            "id": "boots_of_the_wanderer",
+            "name": "BOOTS_OF_THE_WANDERER_NAME",
+            "category": "Footwear",
+            "rarity": "Legendary",
+            "equipment_set": "sylvan_set",
+            "icon": "boots_of_the_wanderer",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "dodge": 12,
+                    "swiftness": 25,
+                    "counterattack": 25
+                },
+                "level 2": {
+                    "armor": 5,
+                    "dodge": 18,
+                    "swiftness": 38,
+                    "counterattack": 38
+                },
+                "level 3": {
+                    "armor": 8,
+                    "dodge": 27,
+                    "swiftness": 57,
+                    "counterattack": 57
+                }
+            }
+        },
+        "dancing_sword": {
+            "id": "dancing_sword",
+            "name": "DANCING_SWORD_NAME",
+            "category": "Weapon",
+            "rarity": "Legendary",
+            "equipment_set": "sylvan_set",
+            "icon": "dancing-sword",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 7,
+                    "max_physical_damage": 12,
+                    "swiftness": 20,
+                    "counterattack": 20
+                },
+                "level 2": {
+                    "min_physical_damage": 11,
+                    "max_physical_damage": 18,
+                    "swiftness": 30,
+                    "counterattack": 30
+                },
+                "level 3": {
+                    "min_physical_damage": 17,
+                    "max_physical_damage": 27,
+                    "swiftness": 45,
+                    "counterattack": 45
+                }
+            }
+        },
+        "explorer_boots": {
+            "id": "explorer_boots",
+            "name": "EXPLORER_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Rare",
+            "equipment_set": "sylvan_set",
+            "icon": "explorer_boots",
+            "stats": {
+                "level 1": {
+                    "dodge": 12,
+                    "swiftness": 12,
+                    "counterattack": 20
+                },
+                "level 2": {
+                    "dodge": 18,
+                    "swiftness": 18,
+                    "counterattack": 30
+                },
+                "level 3": {
+                    "dodge": 27,
+                    "swiftness": 27,
+                    "counterattack": 45
+                }
+            }
+        },
+        "explorer_cloak": {
+            "id": "explorer_cloak",
+            "name": "EXPLORER_CLOAK_NAME",
+            "category": "Torso",
+            "rarity": "Rare",
+            "equipment_set": "sylvan_set",
+            "icon": "explorer_cloak",
+            "stats": {
+                "level 1": {
+                    "armor": 2,
+                    "dodge": 12,
+                    "counterattack": 30
+                },
+                "level 2": {
+                    "armor": 4,
+                    "dodge": 18,
+                    "counterattack": 45
+                },
+                "level 3": {
+                    "armor": 6,
+                    "dodge": 27,
+                    "counterattack": 68
+                }
+            }
+        },
+        "falchion": {
+            "id": "falchion",
+            "name": "FALCHION_NAME",
+            "category": "Weapon",
+            "rarity": "Epic",
+            "equipment_set": "sylvan_set",
+            "icon": "falchion",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 7,
+                    "max_physical_damage": 10,
+                    "swiftness": 12
+                },
+                "level 2": {
+                    "min_physical_damage": 11,
+                    "max_physical_damage": 15,
+                    "swiftness": 18
+                },
+                "level 3": {
+                    "min_physical_damage": 17,
+                    "max_physical_damage": 23,
+                    "swiftness": 27
+                }
+            }
+        },
+        "hunter_knife": {
+            "id": "hunter_knife",
+            "name": "HUNTER_KNIFE_NAME",
+            "category": "Weapon",
+            "rarity": "Rare",
+            "equipment_set": "sylvan_set",
+            "icon": "hunter_knife",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 3,
+                    "max_physical_damage": 4,
+                    "critical_chance": 20,
+                    "critical_damage": 10
+                },
+                "level 2": {
+                    "min_physical_damage": 5,
+                    "max_physical_damage": 6,
+                    "critical_chance": 30,
+                    "critical_damage": 15
+                },
+                "level 3": {
+                    "min_physical_damage": 8,
+                    "max_physical_damage": 9,
+                    "critical_chance": 45,
+                    "critical_damage": 23
+                }
+            }
+        },
+        "ranger_boots": {
+            "id": "ranger_boots",
+            "name": "RANGER_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Epic",
+            "equipment_set": "sylvan_set",
+            "icon": "ranger_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "dodge": 10,
+                    "swiftness": 10,
+                    "counterattack": 20
+                },
+                "level 2": {
+                    "armor": 6,
+                    "dodge": 15,
+                    "swiftness": 15,
+                    "counterattack": 30
+                },
+                "level 3": {
+                    "armor": 9,
+                    "dodge": 23,
+                    "swiftness": 23,
+                    "counterattack": 45
+                }
+            }
+        },
+        "ranger_jerkin": {
+            "id": "ranger_jerkin",
+            "name": "RANGER_JERKIN_NAME",
+            "category": "Torso",
+            "rarity": "Epic",
+            "equipment_set": "sylvan_set",
+            "icon": "ranger_jerkin",
+            "stats": {
+                "level 1": {
+                    "armor": 5,
+                    "dodge": 15,
+                    "swiftness": 10,
+                    "counterattack": 10
+                },
+                "level 2": {
+                    "armor": 8,
+                    "dodge": 23,
+                    "swiftness": 15,
+                    "counterattack": 15
+                },
+                "level 3": {
+                    "armor": 12,
+                    "dodge": 35,
+                    "swiftness": 23,
+                    "counterattack": 23
+                }
+            }
+        },
+        "scimitar": {
+            "id": "scimitar",
+            "name": "SCIMITAR_NAME",
+            "category": "Weapon",
+            "rarity": "Uncommon",
+            "equipment_set": "sylvan_set",
+            "icon": "scimitar",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 3,
+                    "max_physical_damage": 5,
+                    "swiftness": 5
+                },
+                "level 2": {
+                    "min_physical_damage": 5,
+                    "max_physical_damage": 8,
+                    "swiftness": 8
+                },
+                "level 3": {
+                    "min_physical_damage": 8,
+                    "max_physical_damage": 12,
+                    "swiftness": 12
+                }
+            }
+        },
+        "scout_cloak": {
+            "id": "scout_cloak",
+            "name": "SCOUT_CLOAK_NAME",
+            "category": "Torso",
+            "rarity": "Uncommon",
+            "equipment_set": "sylvan_set",
+            "icon": "scout_cloak",
+            "stats": {
+                "level 1": {
+                    "armor": 2,
+                    "dodge": 10,
+                    "counterattack": 10
+                },
+                "level 2": {
+                    "armor": 4,
+                    "dodge": 15,
+                    "counterattack": 15
+                },
+                "level 3": {
+                    "armor": 6,
+                    "dodge": 23,
+                    "counterattack": 23
+                }
+            }
+        },
+        "scout_cowl": {
+            "id": "scout_cowl",
+            "name": "SCOUT_COWL_NAME",
+            "category": "Head",
+            "rarity": "Uncommon",
+            "equipment_set": "sylvan_set",
+            "icon": "scout_cowl",
+            "stats": {
+                "level 1": {
+                    "dodge": 10,
+                    "swiftness": 10
+                },
+                "level 2": {
+                    "dodge": 15,
+                    "swiftness": 15
+                },
+                "level 3": {
+                    "dodge": 23,
+                    "swiftness": 23
+                }
+            }
+        },
+        "shotel": {
+            "id": "shotel",
+            "name": "SHOTEL_NAME",
+            "category": "Weapon",
+            "rarity": "Common",
+            "equipment_set": "sylvan_set",
+            "icon": "shotel",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 2,
+                    "max_physical_damage": 3,
+                    "swiftness": 4
+                },
+                "level 2": {
+                    "min_physical_damage": 4,
+                    "max_physical_damage": 5,
+                    "swiftness": 6
+                },
+                "level 3": {
+                    "min_physical_damage": 6,
+                    "max_physical_damage": 8,
+                    "swiftness": 9
+                }
+            }
+        },
+        "traveler_amulet": {
+            "id": "traveler_amulet",
+            "name": "TRAVELER_AMULET_NAME",
+            "category": "Amulet",
+            "rarity": "Uncommon",
+            "equipment_set": "sylvan_set",
+            "icon": "traveler_amulet",
+            "stats": {
+                "level 1": {
+                    "counterattack": 20
+                },
+                "level 2": {
+                    "counterattack": 30
+                },
+                "level 3": {
+                    "counterattack": 45
+                }
+            }
+        },
+        "wayfarer_boots": {
+            "id": "wayfarer_boots",
+            "name": "WAYFARER_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Common",
+            "equipment_set": "sylvan_set",
+            "icon": "wayfarer_boots",
+            "stats": {
+                "level 1": {
+                    "swiftness": 10
+                },
+                "level 2": {
+                    "swiftness": 15
+                },
+                "level 3": {
+                    "swiftness": 23
+                }
+            }
+        },
+        "wayfarer_hat": {
+            "id": "wayfarer_hat",
+            "name": "WAYFARER_HAT_NAME",
+            "category": "Head",
+            "rarity": "Common",
+            "equipment_set": "sylvan_set",
+            "icon": "wayfarer_hat",
+            "stats": {
+                "level 1": {
+                    "dodge": 4,
+                    "swiftness": 8
+                },
+                "level 2": {
+                    "dodge": 6,
+                    "swiftness": 12
+                },
+                "level 3": {
+                    "dodge": 9,
+                    "swiftness": 18
+                }
+            }
+        },
+        "wind_ring": {
+            "id": "wind_ring",
+            "name": "WIND_RING_NAME",
+            "category": "Ring",
+            "rarity": "Epic",
+            "equipment_set": "sylvan_set",
+            "icon": "wind_ring",
+            "stats": {
+                "level 1": {
+                    "critical_chance": 5,
+                    "swiftness": 15
+                },
+                "level 2": {
+                    "critical_chance": 8,
+                    "swiftness": 23
+                },
+                "level 3": {
+                    "critical_chance": 12,
+                    "swiftness": 35
+                }
+            }
+        }
+    },
+    "taboo": {
+        "cursed_boots": {
+            "id": "cursed_boots",
+            "name": "CURSED_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Epic",
+            "equipment_set": "taboo_set",
+            "icon": "cursed_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 8,
+                    "swiftness": 12
+                },
+                "level 2": {
+                    "armor": 12,
+                    "swiftness": 18
+                },
+                "level 3": {
+                    "armor": 18,
+                    "swiftness": 27
+                }
+            }
+        },
+        "cursed_breastplate": {
+            "id": "cursed_breastplate",
+            "name": "CURSED_BREASTPLATE_NAME",
+            "category": "Torso",
+            "rarity": "Epic",
+            "equipment_set": "taboo_set",
+            "icon": "cursed_breastplate",
+            "stats": {
+                "level 1": {
+                    "armor": 6,
+                    "enrage": 2
+                },
+                "level 2": {
+                    "armor": 8,
+                    "enrage": 3
+                },
+                "level 3": {
+                    "armor": 11,
+                    "enrage": 4
+                }
+            }
+        },
+        "cursed_helmet": {
+            "id": "cursed_helmet",
+            "name": "CURSED_HELMET_NAME",
+            "category": "Head",
+            "rarity": "Epic",
+            "equipment_set": "taboo_set",
+            "icon": "cursed_helmet",
+            "stats": {
+                "level 1": {
+                    "armor": 8,
+                    "thorns": 2
+                },
+                "level 2": {
+                    "armor": 12,
+                    "thorns": 4
+                },
+                "level 3": {
+                    "armor": 18,
+                    "thorns": 6
+                }
+            }
+        },
+        "cursed_shield": {
+            "id": "cursed_shield",
+            "name": "CURSED_SHIELD_NAME",
+            "category": "Shield",
+            "rarity": "Epic",
+            "equipment_set": "taboo_set",
+            "icon": "cursed_shield",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "regeneration": 1,
+                    "enrage": 1,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 4,
+                    "regeneration": 2,
+                    "enrage": 2,
+                    "guard": 1
+                },
+                "level 3": {
+                    "armor": 6,
+                    "regeneration": 3,
+                    "enrage": 3,
+                    "guard": 1
+                }
+            }
+        },
+        "death_pendant": {
+            "id": "death_pendant",
+            "name": "DEATH_PENDANT_NAME",
+            "category": "Amulet",
+            "rarity": "Epic",
+            "equipment_set": "taboo_set",
+            "icon": "death_pendant",
+            "stats": {
+                "level 1": {
+                    "enrage": 2,
+                    "thorns": 2
+                },
+                "level 2": {
+                    "enrage": 3,
+                    "thorns": 4
+                },
+                "level 3": {
+                    "enrage": 4,
+                    "thorns": 6
+                }
+            }
+        },
+        "forbidden_breastplate": {
+            "id": "forbidden_breastplate",
+            "name": "FORBIDDEN_BREASTPLATE_NAME",
+            "category": "Torso",
+            "rarity": "Uncommon",
+            "equipment_set": "taboo_set",
+            "icon": "forbidden_breastplate",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "enrage": 1
+                },
+                "level 2": {
+                    "armor": 4,
+                    "enrage": 2
+                },
+                "level 3": {
+                    "armor": 6,
+                    "enrage": 3
+                }
+            }
+        },
+        "forbidden_helmet": {
+            "id": "forbidden_helmet",
+            "name": "FORBIDDEN_HELMET_NAME",
+            "category": "Head",
+            "rarity": "Uncommon",
+            "equipment_set": "taboo_set",
+            "icon": "forbidden_helmet",
+            "stats": {
+                "level 1": {
+                    "armor": 2,
+                    "thorns": 2
+                },
+                "level 2": {
+                    "armor": 4,
+                    "thorns": 4
+                },
+                "level 3": {
+                    "armor": 6,
+                    "thorns": 6
+                }
+            }
+        },
+        "infamous_buckler": {
+            "id": "infamous_buckler",
+            "name": "INFAMOUS_BUCKLER_NAME",
+            "category": "Shield",
+            "rarity": "Common",
+            "equipment_set": "taboo_set",
+            "icon": "infamous_buckler",
+            "stats": {
+                "level 1": {
+                    "armor": 1,
+                    "thorns": 1,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 2,
+                    "thorns": 2,
+                    "guard": 1
+                },
+                "level 3": {
+                    "armor": 4,
+                    "thorns": 4,
+                    "guard": 1
+                }
+            }
+        },
+        "necromancer_ring": {
+            "id": "necromancer_ring",
+            "name": "NECROMANCY_RING_NAME",
+            "category": "Ring",
+            "rarity": "Legendary",
+            "equipment_set": "taboo_set",
+            "icon": "necromancer_ring",
+            "stats": {
+                "level 1": {
+                    "poisonous": 5,
+                    "bludgeoning": 15
+                },
+                "level 2": {
+                    "poisonous": 8,
+                    "bludgeoning": 23
+                },
+                "level 3": {
+                    "poisonous": 12,
+                    "bludgeoning": 35
+                }
+            }
+        },
+        "poisoned_dagger": {
+            "id": "poisoned_dagger",
+            "name": "POISONED_DAGGER_NAME",
+            "category": "Weapon",
+            "rarity": "Epic",
+            "equipment_set": "taboo_set",
+            "icon": "poisoned_dagger",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 3,
+                    "max_physical_damage": 4,
+                    "poisonous": 6
+                },
+                "level 2": {
+                    "min_physical_damage": 5,
+                    "max_physical_damage": 6,
+                    "poisonous": 9
+                },
+                "level 3": {
+                    "min_physical_damage": 8,
+                    "max_physical_damage": 9,
+                    "poisonous": 14
+                }
+            }
+        },
+        "poisoned_knife": {
+            "id": "poisoned_knife",
+            "name": "POISONED_KNIFE_NAME",
+            "category": "Weapon",
+            "rarity": "Uncommon",
+            "equipment_set": "taboo_set",
+            "icon": "poisoned_knife",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 2,
+                    "max_physical_damage": 3,
+                    "poisonous": 2
+                },
+                "level 2": {
+                    "min_physical_damage": 4,
+                    "max_physical_damage": 5,
+                    "poisonous": 4
+                },
+                "level 3": {
+                    "min_physical_damage": 6,
+                    "max_physical_damage": 8,
+                    "poisonous": 6
+                }
+            }
+        },
+        "poisoned_spike": {
+            "id": "poisoned_spike",
+            "name": "POISONED_SPIKE_NAME",
+            "category": "Weapon",
+            "rarity": "Common",
+            "equipment_set": "taboo_set",
+            "icon": "poisoned_spike",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 1,
+                    "max_physical_damage": 3,
+                    "poisonous": 1
+                },
+                "level 2": {
+                    "min_physical_damage": 2,
+                    "max_physical_damage": 5,
+                    "poisonous": 2
+                },
+                "level 3": {
+                    "min_physical_damage": 4,
+                    "max_physical_damage": 8,
+                    "poisonous": 4
+                }
+            }
+        },
+        "ribcage_shield": {
+            "id": "ribcage_shield",
+            "name": "RIBCAGE_SHIELD_NAME",
+            "category": "Shield",
+            "rarity": "Legendary",
+            "equipment_set": "taboo_set",
+            "icon": "ribcage_shield",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "regeneration": 1,
+                    "enrage": 2,
+                    "thorns": 2,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 6,
+                    "regeneration": 2,
+                    "enrage": 3,
+                    "thorns": 4,
+                    "guard": 1
+                },
+                "level 3": {
+                    "armor": 8,
+                    "regeneration": 3,
+                    "enrage": 4,
+                    "thorns": 6,
+                    "guard": 1
+                }
+            }
+        },
+        "skull_ring": {
+            "id": "skull_ring",
+            "name": "SKULL_RING_NAME",
+            "category": "Ring",
+            "rarity": "Rare",
+            "equipment_set": "taboo_set",
+            "icon": "skull_ring",
+            "stats": {
+                "level 1": {
+                    "enrage": 2
+                },
+                "level 2": {
+                    "enrage": 3
+                },
+                "level 3": {
+                    "enrage": 4
+                }
+            }
+        },
+        "souldrain_sword": {
+            "id": "souldrain_sword",
+            "name": "SOULDRAIN_SWORD_NAME",
+            "category": "Weapon",
+            "rarity": "Rare",
+            "equipment_set": "taboo_set",
+            "icon": "souldrain_sword",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 5,
+                    "max_physical_damage": 7,
+                    "lifesteal": 1
+                },
+                "level 2": {
+                    "min_physical_damage": 8,
+                    "max_physical_damage": 11,
+                    "lifesteal": 3
+                },
+                "level 3": {
+                    "min_physical_damage": 12,
+                    "max_physical_damage": 17,
+                    "lifesteal": 5
+                }
+            }
+        },
+        "undead_boots": {
+            "id": "undead_boots",
+            "name": "UNDEAD_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Rare",
+            "equipment_set": "taboo_set",
+            "icon": "undead_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "swiftness": 15
+                },
+                "level 2": {
+                    "armor": 5,
+                    "swiftness": 23
+                },
+                "level 3": {
+                    "armor": 8,
+                    "swiftness": 35
+                }
+            }
+        },
+        "undead_breastplate": {
+            "id": "undead_breastplate",
+            "name": "UNDEAD_BREASTPLATE_NAME",
+            "category": "Torso",
+            "rarity": "Rare",
+            "equipment_set": "taboo_set",
+            "icon": "undead_breastplate",
+            "stats": {
+                "level 1": {
+                    "armor": 6,
+                    "enrage": 1
+                },
+                "level 2": {
+                    "armor": 8,
+                    "enrage": 2
+                },
+                "level 3": {
+                    "armor": 11,
+                    "enrage": 3
+                }
+            }
+        },
+        "undead_helmet": {
+            "id": "undead_helmet",
+            "name": "UNDEAD_HELMET_NAME",
+            "category": "Head",
+            "rarity": "Rare",
+            "equipment_set": "taboo_set",
+            "icon": "undead_helmet",
+            "stats": {
+                "level 1": {
+                    "armor": 5,
+                    "thorns": 2
+                },
+                "level 2": {
+                    "armor": 8,
+                    "thorns": 4
+                },
+                "level 3": {
+                    "armor": 12,
+                    "thorns": 6
+                }
+            }
+        },
+        "undead_shield": {
+            "id": "undead_shield",
+            "name": "UNDEAD_SHIELD_NAME",
+            "category": "Shield",
+            "rarity": "Rare",
+            "equipment_set": "taboo_set",
+            "icon": "undead_shield",
+            "stats": {
+                "level 1": {
+                    "armor": 4,
+                    "enrage": 1,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 6,
+                    "enrage": 2,
+                    "guard": 1
+                },
+                "level 3": {
+                    "armor": 8,
+                    "enrage": 3,
+                    "guard": 1
+                }
+            }
+        }
+    },
+    "villager": {
+        "comfy_boots": {
+            "id": "comfy_boots",
+            "name": "COMFY_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Common",
+            "equipment_set": "villager_set",
+            "icon": "comfy_boots",
+            "stats": {
+                "level 1": {
+                    "luck": 5,
+                    "swiftness": 5
+                },
+                "level 2": {
+                    "luck": 8,
+                    "swiftness": 8
+                },
+                "level 3": {
+                    "luck": 12,
+                    "swiftness": 12
+                }
+            }
+        },
+        "comfy_hat": {
+            "id": "comfy_hat",
+            "name": "COMFY_HAT_NAME",
+            "category": "Head",
+            "rarity": "Common",
+            "equipment_set": "villager_set",
+            "icon": "comfy_hat",
+            "stats": {
+                "level 1": {
+                    "armor": 2,
+                    "luck": 5
+                },
+                "level 2": {
+                    "armor": 4,
+                    "luck": 8
+                },
+                "level 3": {
+                    "armor": 6,
+                    "luck": 12
+                }
+            }
+        },
+        "comfy_jacket": {
+            "id": "comfy_jacket",
+            "name": "COMFY_JACKET_NAME",
+            "category": "Torso",
+            "rarity": "Common",
+            "equipment_set": "villager_set",
+            "icon": "comfy_jacket",
+            "stats": {
+                "level 1": {
+                    "armor": 2,
+                    "luck": 5
+                },
+                "level 2": {
+                    "armor": 4,
+                    "luck": 8
+                },
+                "level 3": {
+                    "armor": 6,
+                    "luck": 12
+                }
+            }
+        },
+        "improvised_dagger": {
+            "id": "improvised_dagger",
+            "name": "IMPROVISED_DAGGER_NAME",
+            "category": "Weapon",
+            "rarity": "Uncommon",
+            "equipment_set": "villager_set",
+            "icon": "improvised_dagger",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 2,
+                    "max_physical_damage": 3,
+                    "luck": 5,
+                    "critical_chance": 15
+                },
+                "level 2": {
+                    "min_physical_damage": 4,
+                    "max_physical_damage": 5,
+                    "luck": 8,
+                    "critical_chance": 23
+                },
+                "level 3": {
+                    "min_physical_damage": 6,
+                    "max_physical_damage": 8,
+                    "luck": 12,
+                    "critical_chance": 35
+                }
+            }
+        },
+        "improvised_hammer": {
+            "id": "improvised_hammer",
+            "name": "IMPROVISED_HAMMER_NAME",
+            "category": "Weapon",
+            "rarity": "Uncommon",
+            "equipment_set": "villager_set",
+            "icon": "improvised_hammer",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 1,
+                    "max_physical_damage": 5,
+                    "luck": 5,
+                    "bludgeoning": 10
+                },
+                "level 2": {
+                    "min_physical_damage": 2,
+                    "max_physical_damage": 8,
+                    "luck": 8,
+                    "bludgeoning": 15
+                },
+                "level 3": {
+                    "min_physical_damage": 4,
+                    "max_physical_damage": 12,
+                    "luck": 12,
+                    "bludgeoning": 23
+                }
+            }
+        },
+        "improvised_shield": {
+            "id": "improvised_shield",
+            "name": "IMPROVISED_SHIELD_NAME",
+            "category": "Shield",
+            "rarity": "Uncommon",
+            "equipment_set": "villager_set",
+            "icon": "improvised_shield",
+            "stats": {
+                "level 1": {
+                    "regeneration": 1,
+                    "luck": 5,
+                    "guard": 1
+                },
+                "level 2": {
+                    "regeneration": 2,
+                    "luck": 8,
+                    "guard": 1
+                },
+                "level 3": {
+                    "regeneration": 3,
+                    "luck": 12,
+                    "guard": 1
+                }
+            }
+        },
+        "lucky_charm": {
+            "id": "lucky_charm",
+            "name": "LUCKY_CHARM_NAME",
+            "category": "Amulet",
+            "rarity": "Uncommon",
+            "equipment_set": "villager_set",
+            "icon": "lucky_charm",
+            "stats": {
+                "level 1": {
+                    "luck": 10
+                },
+                "level 2": {
+                    "luck": 15
+                },
+                "level 3": {
+                    "luck": 23
+                }
+            }
+        },
+        "rusty_ring": {
+            "id": "rusty_ring",
+            "name": "RUSTY_RING_NAME",
+            "category": "Ring",
+            "rarity": "Rare",
+            "equipment_set": "villager_set",
+            "icon": "rusty_ring",
+            "stats": {
+                "level 1": {
+                    "luck": 5,
+                    "poisonous": 2
+                },
+                "level 2": {
+                    "luck": 8,
+                    "poisonous": 4
+                },
+                "level 3": {
+                    "luck": 12,
+                    "poisonous": 6
+                }
+            }
+        },
+        "woodcutting_axe": {
+            "id": "woodcutting_axe",
+            "name": "WOODCUTTING_AXE_NAME",
+            "category": "Weapon",
+            "rarity": "Rare",
+            "equipment_set": "villager_set",
+            "icon": "woodcutting_axe",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 5,
+                    "max_physical_damage": 10,
+                    "luck": 5
+                },
+                "level 2": {
+                    "min_physical_damage": 8,
+                    "max_physical_damage": 15,
+                    "luck": 8
+                },
+                "level 3": {
+                    "min_physical_damage": 12,
+                    "max_physical_damage": 23,
+                    "luck": 12
+                }
+            }
+        },
+        "wooden_shield": {
+            "id": "wooden_shield",
+            "name": "WOODEN_SHIELD_NAME",
+            "category": "Shield",
+            "rarity": "Common",
+            "equipment_set": "villager_set",
+            "icon": "wooden_shield",
+            "stats": {
+                "level 1": {
+                    "armor": 1,
+                    "luck": 5,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 2,
+                    "luck": 8,
+                    "guard": 1
+                },
+                "level 3": {
+                    "armor": 4,
+                    "luck": 12,
+                    "guard": 1
+                }
+            }
+        },
+        "wooden_sword": {
+            "id": "wooden_sword",
+            "name": "WOODEN_SWORD_NAME",
+            "category": "Weapon",
+            "rarity": "Common",
+            "equipment_set": "villager_set",
+            "icon": "wooden_sword",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 1,
+                    "max_physical_damage": 4,
+                    "luck": 5
+                },
+                "level 2": {
+                    "min_physical_damage": 2,
+                    "max_physical_damage": 6,
+                    "luck": 8
+                },
+                "level 3": {
+                    "min_physical_damage": 4,
+                    "max_physical_damage": 9,
+                    "luck": 12
+                }
+            }
+        }
+    }
+}
