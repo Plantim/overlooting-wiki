@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlooting Masteries</title>
+    
+    <link rel="apple-touch-icon" href="assets/ui/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/ui/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/ui/favicon-16x16.png">
+    
+</head>
+
+<body>
+    <nav class="main-nav">
+        <ul>
+            <li><a id="nav-items" href="items.html">Items</a></li>
+            <li><a id="nav-masteries" href="masteries.html">Masteries</a></li>
+        </ul>
+    </nav>
+    <div id="loader-wrapper">
+        <div class="loader"></div>
+        <p>Loading...</p>
+    </div>
+
+    <div class="container" style="display: none;">
+        <header>
+            <h1 id="page-title">Overlooting Masteries</h1>
+            <div class="filters">
+                <select id="hero-filter">
+                    </select>
+                <select id="lang-switcher"></select>
+            </div>
+        </header>
+
+        <main>
+            <div id="masteries-container"></div>
+        </main>
+    </div>
+
+    <div id="version-display"></div>
+
+    <script>
+        const APP_VERSION = '1.2.0'; // Gardez la même version que items.html
+
+        // Liste des ressources à charger
+        const resources = [
+            'assets/js/loader.js',
+            'assets/js/common.js', // Le fichier commun pour les traductions
+            'assets/js/masteries.js'  // Notre nouveau fichier JS
+        ];
+
+        // Écriture dynamique des balises de script avec le numéro de version
+        resources.forEach(url => {
+            document.write(`<script src="${url}?v=${APP_VERSION}"></` + `script>`);
+        });
+
+        // Chargement dynamique du CSS général et du CSS spécifique aux maîtrises
+        document.head.innerHTML += `<link rel="stylesheet" href="assets/css/style.css?v=${APP_VERSION}">`;
+        document.head.innerHTML += `<link rel="stylesheet" href="assets/css/masteries.css?v=${APP_VERSION}">`;
+    </script>
+</body>
+</html>

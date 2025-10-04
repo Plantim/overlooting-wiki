@@ -1,0 +1,462 @@
+{
+    "cat": {
+        "level_1": {
+            "apothecary": {
+                "name": "APOTHECARY_NAME",
+                "description": "APOTHECARY_DESCRIPTION"
+            },
+            "armor_infusion": {
+                "name": "ARMOR_INFUSION_NAME",
+                "description": "ARMOR_INFUSION_DESCRIPTION"
+            },
+            "defensive_maneuver": {
+                "name": "DEFENSIVE_MANEUVER_NAME",
+                "description": "DEFENSIVE_MANEUVER_DESCRIPTION"
+            },
+            "first_aid": {
+                "name": "FIRST_AID_NAME",
+                "description": "FIRST_AID_DESCRIPTION"
+            },
+            "lucky_feet": {
+                "name": "LUCKY_FEET_NAME",
+                "description": "LUCKY_FEET_DESCRIPTION"
+            },
+            "mana_leak": {
+                "name": "MANA_LEAK_NAME",
+                "description": "MANA_LEAK_DESCRIPTION"
+            },
+            "play_safe": {
+                "name": "PLAY_SAFE_NAME",
+                "description": "PLAY_SAFE_DESCRIPTION"
+            },
+            "quality_control": {
+                "name": "QUALITY_CONTROL_NAME",
+                "description": "QUALITY_CONTROL_DESCRIPTION"
+            },
+            "recycling": {
+                "name": "RECYCLING_NAME",
+                "description": "RECYCLING_DESCRIPTION"
+            },
+            "sneak_attack": {
+                "name": "SNEAK_ATTACK_NAME",
+                "description": "SNEAK_ATTACK_DESCRIPTION"
+            },
+            "surprise_factor": {
+                "name": "SURPRISE_FACTOR_NAME",
+                "description": "SURPRISE_FACTOR_DESCRIPTION"
+            },
+            "weapon_infusion": {
+                "name": "WEAPON_INFUSION_NAME",
+                "description": "WEAPON_INFUSION_DESCRIPTION"
+            }
+        },
+        "level_2": {
+            "alchemy": {
+                "name": "ALCHEMY_NAME",
+                "description": "ALCHEMY_DESCRIPTION"
+            },
+            "attack_pattern": {
+                "name": "ATTACK_PATTERN_NAME",
+                "description": "ATTACK_PATTERN_DESCRIPTION"
+            },
+            "hexblade": {
+                "name": "HEXBLADE_NAME",
+                "description": "HEXBLADE_DESCRIPTION"
+            },
+            "junk_artisan": {
+                "name": "JUNK_ARTISAN_NAME",
+                "description": "JUNK_ARTISAN_DESCRIPTION"
+            },
+            "makeshift_weapons": {
+                "name": "MAKESHIFT_WEAPONS_NAME",
+                "description": "MAKESHIFT_WEAPONS_DESCRIPTION"
+            },
+            "perfected_defense": {
+                "name": "PERFECTED_DEFENSE_NAME",
+                "description": "PERFECTED_DEFENSE_DESCRIPTION"
+            },
+            "sadist": {
+                "name": "SADIST_NAME",
+                "description": "SADIST_DESCRIPTION"
+            },
+            "spreading_toxicity": {
+                "name": "SPREADING_TOXICITY_NAME",
+                "description": "SPREADING_TOXICITY_DESCRIPTION"
+            },
+            "subterfuge": {
+                "name": "SUBTERFUGE_NAME",
+                "description": "SUBTERFUGE_DESCRIPTION"
+            },
+            "survival_instinct": {
+                "name": "SURVIVAL_INSTINCT_NAME",
+                "description": "SURVIVAL_INSTINCT_DESCRIPTION"
+            },
+            "upgraded_formula": {
+                "name": "UPGRADED_FORMULA_NAME",
+                "description": "UPGRADED_FORMULA_DESCRIPTION"
+            },
+            "versatile_stance": {
+                "name": "VERSATILE_STANCE_NAME",
+                "description": "VERSATILE_STANCE_DESCRIPTION"
+            },
+            "weapon_proficiency": {
+                "name": "WEAPON_PROFICIENCY_NAME",
+                "description": "WEAPON_PROFICIENCY_DESCRIPTION"
+            }
+        },
+        "level_3": {
+            "duelist": {
+                "name": "DUELIST_NAME",
+                "description": "DUELIST_DESCRIPTION"
+            },
+            "genius_of_adaptability": {
+                "name": "GENIUS_OF_ADAPTABILITY_NAME",
+                "description": "GENIUS_OF_ADAPTABILITY_DESCRIPTION"
+            },
+            "nimble_fighter": {
+                "name": "NIMBLE_FIGHTER_NAME",
+                "description": "NIMBLE_FIGHTER_DESCRIPTION"
+            },
+            "perfectly_balanced": {
+                "name": "PERFECTLY_BALANCED_NAME",
+                "description": "PERFECTLY_BALANCED_DESCRIPTION"
+            },
+            "rule_of_three": {
+                "name": "RULE_OF_THREE_NAME",
+                "description": "RULE_OF_THREE_DESCRIPTION"
+            },
+            "schrodingers_cat": {
+                "name": "SCHRODINGERS_CAT_NAME",
+                "description": "SCHRODINGERS_CAT_DESCRIPTION"
+            },
+            "slow_start": {
+                "name": "SLOW_START_NAME",
+                "description": "SLOW_START_DESCRIPTION"
+            },
+            "target_the_weak": {
+                "name": "TARGET_THE_WEAK_NAME",
+                "description": "TARGET_THE_WEAK_DESCRIPTION"
+            },
+            "thrill_addict": {
+                "name": "THRILL_ADDICT_NAME",
+                "description": "THRILL_ADDICT_DESCRIPTION"
+            },
+            "timely_retreat": {
+                "name": "TIMELY_RETREAT_NAME",
+                "description": "TIMELY_RETREAT_DESCRIPTION"
+            },
+            "untouchable": {
+                "name": "UNTOUCHABLE_NAME",
+                "description": "UNTOUCHABLE_DESCRIPTION"
+            },
+            "vampirism": {
+                "name": "VAMPIRISM_NAME",
+                "description": "VAMPIRISM_DESCRIPTION"
+            }
+        }
+    },
+    "dog": {
+        "level_1": {
+            "basic_training": {
+                "name": "BASIC_TRAINING_NAME",
+                "description": "BASIC_TRAINING_DESCRIPTION"
+            },
+            "emergency_healing": {
+                "name": "EMERGENCY_HEALING_NAME",
+                "description": "EMERGENCY_HEALING_DESCRIPTION"
+            },
+            "emotional": {
+                "name": "EMOTIONAL_NAME",
+                "description": "EMOTIONAL_DESCRIPTION"
+            },
+            "executioner": {
+                "name": "EXECUTIONER_NAME",
+                "description": "EXECUTIONER_DESCRIPTION"
+            },
+            "handcrafted_traps": {
+                "name": "HANDCRAFTED_TRAPS_NAME",
+                "description": "HANDCRAFTED_TRAPS_DESCRIPTION"
+            },
+            "healing_factor": {
+                "name": "HEALING_FACTOR_NAME",
+                "description": "HEALING_FACTOR_DESCRIPTION"
+            },
+            "healthy_lifestyle": {
+                "name": "HEALTHY_LIFESTYLE_NAME",
+                "description": "HEALTHY_LIFESTYLE_DESCRIPTION"
+            },
+            "intimidate": {
+                "name": "INTIMIDATE_NAME",
+                "description": "INTIMIDATE_DESCRIPTION"
+            },
+            "personal_collection": {
+                "name": "PERSONAL_COLLECTION_NAME",
+                "description": "PERSONAL_COLLECTION_DESCRIPTION"
+            },
+            "piercing_gaze": {
+                "name": "PIERCING_GAZE_NAME",
+                "description": "PIERCING_GAZE_DESCRIPTION"
+            },
+            "poison_traps": {
+                "name": "POISON_TRAPS_NAME",
+                "description": "POISON_TRAPS_DESCRIPTION"
+            },
+            "quick_repair": {
+                "name": "QUICK_REPAIR_NAME",
+                "description": "QUICK_REPAIR_DESCRIPTION"
+            }
+        },
+        "level_2": {
+            "adrenaline": {
+                "name": "ADRENALINE_NAME",
+                "description": "ADRENALINE_DESCRIPTION"
+            },
+            "advanced_tactics": {
+                "name": "ADVANCED_TACTICS_NAME",
+                "description": "ADVANCED_TACTICS_DESCRIPTION"
+            },
+            "battle_frenzy": {
+                "name": "BATTLE_FRENZY_NAME",
+                "description": "BATTLE_FRENZY_DESCRIPTION"
+            },
+            "creativity": {
+                "name": "CREATIVITY_NAME",
+                "description": "CREATIVITY_DESCRIPTION"
+            },
+            "diamond_in_the_rough": {
+                "name": "DIAMOND_IN_THE_ROUGH_NAME",
+                "description": "DIAMOND_IN_THE_ROUGH_DESCRIPTION"
+            },
+            "exploit_weakness": {
+                "name": "EXPLOIT_WEAKNESS_NAME",
+                "description": "EXPLOIT_WEAKNESS_DESCRIPTION"
+            },
+            "impervious": {
+                "name": "IMPERVIOUS_NAME",
+                "description": "IMPERVIOUS_DESCRIPTION"
+            },
+            "imposing_presence": {
+                "name": "IMPOSING_PRESENCE_NAME",
+                "description": "IMPOSING_PRESENCE_DESCRIPTION"
+            },
+            "iron_will": {
+                "name": "IRON_WILL_NAME",
+                "description": "IRON_WILL_DESCRIPTION"
+            },
+            "reckless_strike": {
+                "name": "RECKLESS_STRIKE_NAME",
+                "description": "RECKLESS_STRIKE_DESCRIPTION"
+            },
+            "rough_skin": {
+                "name": "ROUGH_SKIN_NAME",
+                "description": "ROUGH_SKIN_DESCRIPTION"
+            },
+            "speciality": {
+                "name": "SPECIALITY_NAME",
+                "description": "SPECIALITY_DESCRIPTION"
+            }
+        },
+        "level_3": {
+            "bloodlust": {
+                "name": "BLOODLUST_NAME",
+                "description": "BLOODLUST_DESCRIPTION"
+            },
+            "chaotic_violence": {
+                "name": "CHAOTIC_VIOLENCE_NAME",
+                "description": "CHAOTIC_VIOLENCE_DESCRIPTION"
+            },
+            "dual_wielding": {
+                "name": "DUAL_WIELDING_NAME",
+                "description": "DUAL_WIELDING_DESCRIPTION"
+            },
+            "eternal_blessing": {
+                "name": "ETERNAL_BLESSING_NAME",
+                "description": "ETERNAL_BLESSING_DESCRIPTION"
+            },
+            "life_force": {
+                "name": "LIFE_FORCE_NAME",
+                "description": "LIFE_FORCE_DESCRIPTION"
+            },
+            "one_dog_army": {
+                "name": "ONE_DOG_ARMY_NAME",
+                "description": "ONE_DOG_ARMY_DESCRIPTION"
+            },
+            "overwhelming_strength": {
+                "name": "OVERWHELMING_STRENGTH_NAME",
+                "description": "OVERWHELMING_STRENGTH_DESCRIPTION"
+            },
+            "protagonist": {
+                "name": "PROTAGONIST_NAME",
+                "description": "PROTAGONIST_DESCRIPTION"
+            },
+            "shieldmaster": {
+                "name": "SHIELDMASTER_NAME",
+                "description": "SHIELDMASTER_DESCRIPTION"
+            },
+            "superior_quality": {
+                "name": "SUPERIOR_QUALITY_NAME",
+                "description": "SUPERIOR_QUALITY_DESCRIPTION"
+            },
+            "war_of_attrition": {
+                "name": "WAR_OF_ATTRITION_NAME",
+                "description": "WAR_OF_ATTRITION_DESCRIPTION"
+            },
+            "wild_warrior": {
+                "name": "WILD_WARRIOR_NAME",
+                "description": "WILD_WARRIOR_DESCRIPTION"
+            }
+        }
+    },
+    "shadow": {
+        "level_1": {
+            "blood_sacrifice": {
+                "name": "BLOOD_SACRIFICE_NAME",
+                "description": "BLOOD_SACRIFICE_DESCRIPTION"
+            },
+            "ceremonial_rite": {
+                "name": "CEREMONIAL_RITE_NAME",
+                "description": "CEREMONIAL_RITE_DESCRIPTION"
+            },
+            "cheat_death": {
+                "name": "CHEAT_DEATH_NAME",
+                "description": "CHEAT_DEATH_DESCRIPTION"
+            },
+            "destruction_magic": {
+                "name": "DESTRUCTION_MAGIC_NAME",
+                "description": "DESTRUCTION_MAGIC_DESCRIPTION"
+            },
+            "futility": {
+                "name": "FUTILITY_NAME",
+                "description": "FUTILITY_DESCRIPTION"
+            },
+            "hunger": {
+                "name": "HUNGER_NAME",
+                "description": "HUNGER_DESCRIPTION"
+            },
+            "pain": {
+                "name": "PAIN_NAME",
+                "description": "PAIN_DESCRIPTION"
+            },
+            "public_enemy": {
+                "name": "PUBLIC_ENEMY_NAME",
+                "description": "PUBLIC_ENEMY_DESCRIPTION"
+            },
+            "rot": {
+                "name": "ROT_NAME",
+                "description": "ROT_DESCRIPTION"
+            },
+            "shadow_guard": {
+                "name": "SHADOW_GUARD_NAME",
+                "description": "SHADOW_GUARD_DESCRIPTION"
+            },
+            "sudden_aging": {
+                "name": "SUDDEN_AGING_NAME",
+                "description": "SUDDEN_AGING_DESCRIPTION"
+            },
+            "tempting_offer": {
+                "name": "TEMPTING_OFFER_NAME",
+                "description": "TEMPTING_OFFER_DESCRIPTION"
+            }
+        },
+        "level_2": {
+            "corrupted_soul": {
+                "name": "CORRUPTED_SOUL_NAME",
+                "description": "CORRUPTED_SOUL_DESCRIPTION"
+            },
+            "curse_magic": {
+                "name": "CURSE_MAGIC_NAME",
+                "description": "CURSE_MAGIC_DESCRIPTION"
+            },
+            "decaying_touch": {
+                "name": "DECAYING_TOUCH_NAME",
+                "description": "DECAYING_TOUCH_DESCRIPTION"
+            },
+            "ethereal_form": {
+                "name": "ETHEREAL_FORM_NAME",
+                "description": "ETHEREAL_FORM_DESCRIPTION"
+            },
+            "grow_in_power": {
+                "name": "GROW_IN_POWER_NAME",
+                "description": "GROW_IN_POWER_DESCRIPTION"
+            },
+            "impervious_warding": {
+                "name": "IMPERVIOUS_WARDING_NAME",
+                "description": "IMPERVIOUS_WARDING_DESCRIPTION"
+            },
+            "living_in_solitude": {
+                "name": "LIVING_IN_SOLITUDE_NAME",
+                "description": "LIVING_IN_SOLITUDE_DESCRIPTION"
+            },
+            "shadow_veil": {
+                "name": "SHADOW_VEIL_NAME",
+                "description": "SHADOW_VEIL_DESCRIPTION"
+            },
+            "shared_fate": {
+                "name": "SHARED_FATE_NAME",
+                "description": "SHARED_FATE_DESCRIPTION"
+            },
+            "soul_eater": {
+                "name": "SOUL_EATER_NAME",
+                "description": "SOUL_EATER_DESCRIPTION"
+            },
+            "soul_leech": {
+                "name": "SOUL_LEECH_NAME",
+                "description": "SOUL_LEECH_DESCRIPTION"
+            },
+            "war_magic": {
+                "name": "WAR_MAGIC_NAME",
+                "description": "WAR_MAGIC_DESCRIPTION"
+            }
+        },
+        "level_3": {
+            "absolute_power": {
+                "name": "ABSOLUTE_POWER_NAME",
+                "description": "ABSOLUTE_POWER_DESCRIPTION"
+            },
+            "ascended_soul": {
+                "name": "ASCENDED_SOUL_NAME",
+                "description": "ASCENDED_SOUL_DESCRIPTION"
+            },
+            "coagula": {
+                "name": "COAGULA_NAME",
+                "description": "COAGULA_DESCRIPTION"
+            },
+            "corruptions_call": {
+                "name": "CORRUPTIONS_CALL_NAME",
+                "description": "CORRUPTIONS_CALL_DESCRIPTION"
+            },
+            "dark_energy": {
+                "name": "DARK_ENERGY_NAME",
+                "description": "DARK_ENERGY_DESCRIPTION"
+            },
+            "dark_matter": {
+                "name": "DARK_MATTER_NAME",
+                "description": "DARK_MATTER_DESCRIPTION"
+            },
+            "fear_of_death": {
+                "name": "FEAR_OF_DEATH_NAME",
+                "description": "FEAR_OF_DEATH_DESCRIPTION"
+            },
+            "inevitable_end": {
+                "name": "INEVITABLE_END_NAME",
+                "description": "INEVITABLE_END_DESCRIPTION"
+            },
+            "no_escape": {
+                "name": "NO_ESCAPE_NAME",
+                "description": "NO_ESCAPE_DESCRIPTION"
+            },
+            "solve": {
+                "name": "SOLVE_NAME",
+                "description": "SOLVE_DESCRIPTION"
+            },
+            "towards_eternity": {
+                "name": "TOWARDS_ETERNITY_NAME",
+                "description": "TOWARDS_ETERNITY_DESCRIPTION"
+            },
+            "trinitas": {
+                "name": "TRINITAS_NAME",
+                "description": "TRINITAS_DESCRIPTION"
+            }
+        }
+    }
+}

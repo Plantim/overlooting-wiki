@@ -1,5 +1,7 @@
 {
   "en": {
+    "NAV_ITEMS": "Items",
+    "NAV_MASTERIES": "Masteries",
     "CATEGORY_WORD": "Category",
     "RARITY_WORD": "Rarity",
     "SET_WORD_KEY": "Set",
@@ -11,9 +13,16 @@
     "LEVEL_WORD_KEY": "Level",
     "MIN_PREFIX_KEY": "Min.",
     "MAX_PREFIX_KEY": "Max.",
-    "all": "All"
+    "all": "All",
+    "PAGE_TITLE_MASTERIES": "Overlooting Masteries",
+    "SELECT_HERO_PLACEHOLDER": "Select a hero...",
+    "CAT_HERO_NAME": "Cat",
+    "DOG_HERO_NAME": "Dog",
+    "SHADOW_HERO_NAME": "Shadow"
   },
   "fr": {
+    "NAV_ITEMS": "Objets",
+    "NAV_MASTERIES": "Maîtrises",
     "CATEGORY_WORD": "Catégorie",
     "RARITY_WORD": "Rareté",
     "SET_WORD_KEY": "Set",
@@ -25,9 +34,16 @@
     "LEVEL_WORD_KEY": "Niveau",
     "MIN_PREFIX_KEY": "Min.",
     "MAX_PREFIX_KEY": "Max.",
-    "all": "Tous"
+    "all": "Tous",
+    "PAGE_TITLE_MASTERIES": "Maîtrises d'Overlooting",
+    "SELECT_HERO_PLACEHOLDER": "Choisir un héros...",
+    "CAT_HERO_NAME": "Chat",
+    "DOG_HERO_NAME": "Chien",
+    "SHADOW_HERO_NAME": "Ombre"
   },
   "de": {
+    "NAV_ITEMS": "Gegenstände",
+    "NAV_MASTERIES": "Meisterschaften",
     "CATEGORY_WORD": "Kategorie",
     "RARITY_WORD": "Seltenheit",
     "SET_WORD_KEY": "Set",
@@ -39,9 +55,16 @@
     "LEVEL_WORD_KEY": "Stufe",
     "MIN_PREFIX_KEY": "Min.",
     "MAX_PREFIX_KEY": "Max.",
-    "all": "Alle"
+    "all": "Alle",
+    "PAGE_TITLE_MASTERIES": "Overlooting Meisterschaften",
+    "SELECT_HERO_PLACEHOLDER": "Wähle einen Helden...",
+    "CAT_HERO_NAME": "Katze",
+    "DOG_HERO_NAME": "Hund",
+    "SHADOW_HERO_NAME": "Schatten"
   },
   "es": {
+    "NAV_ITEMS": "Objetos",
+    "NAV_MASTERIES": "Maestrías",
     "CATEGORY_WORD": "Categoría",
     "RARITY_WORD": "Rareza",
     "SET_WORD_KEY": "Set",
@@ -53,9 +76,16 @@
     "LEVEL_WORD_KEY": "Nivel",
     "MIN_PREFIX_KEY": "Mín.",
     "MAX_PREFIX_KEY": "Máx.",
-    "all": "Todos"
+    "all": "Todos",
+    "PAGE_TITLE_MASTERIES": "Maestrías de Overlooting",
+    "SELECT_HERO_PLACEHOLDER": "Selecciona un héroe...",
+    "CAT_HERO_NAME": "Gato",
+    "DOG_HERO_NAME": "Perro",
+    "SHADOW_HERO_NAME": "Sombra"
   },
   "ja": {
+    "NAV_ITEMS": "アイテム",
+    "NAV_MASTERIES": "マスタリー",
     "CATEGORY_WORD": "カテゴリー",
     "RARITY_WORD": "レアリティ",
     "SET_WORD_KEY": "セット",
@@ -67,9 +97,16 @@
     "LEVEL_WORD_KEY": "レベル",
     "MIN_PREFIX_KEY": "最小",
     "MAX_PREFIX_KEY": "最大",
-    "all": "すべて"
+    "all": "すべて",
+    "PAGE_TITLE_MASTERIES": "Overlootingのマスタリー",
+    "SELECT_HERO_PLACEHOLDER": "ヒーローを選択...",
+    "CAT_HERO_NAME": "猫",
+    "DOG_HERO_NAME": "犬",
+    "SHADOW_HERO_NAME": "影"
   },
   "ko": {
+    "NAV_ITEMS": "아이템",
+    "NAV_MASTERIES": "마스터리",
     "CATEGORY_WORD": "카테고리",
     "RARITY_WORD": "희귀도",
     "SET_WORD_KEY": "세트",
@@ -81,9 +118,16 @@
     "LEVEL_WORD_KEY": "레벨",
     "MIN_PREFIX_KEY": "최소",
     "MAX_PREFIX_KEY": "최대",
-    "all": "전체"
+    "all": "전체",
+    "PAGE_TITLE_MASTERIES": "오버루팅 마스터리",
+    "SELECT_HERO_PLACEHOLDER": "영웅 선택...",
+    "CAT_HERO_NAME": "고양이",
+    "DOG_HERO_NAME": "개",
+    "SHADOW_HERO_NAME": "그림자"
   },
   "pt_BR": {
+    "NAV_ITEMS": "Itens",
+    "NAV_MASTERIES": "Maestrias",
     "CATEGORY_WORD": "Categoria",
     "RARITY_WORD": "Raridade",
     "SET_WORD_KEY": "Set",
@@ -95,9 +139,16 @@
     "LEVEL_WORD_KEY": "Nível",
     "MIN_PREFIX_KEY": "Mín.",
     "MAX_PREFIX_KEY": "Máx.",
-    "all": "Todos"
+    "all": "Todos",
+    "PAGE_TITLE_MASTERIES": "Maestrias de Overlooting",
+    "SELECT_HERO_PLACEHOLDER": "Selecione um herói...",
+    "CAT_HERO_NAME": "Gato",
+    "DOG_HERO_NAME": "Cachorro",
+    "SHADOW_HERO_NAME": "Sombra"
   },
   "ru": {
+    "NAV_ITEMS": "Предметы",
+    "NAV_MASTERIES": "Мастерство",
     "CATEGORY_WORD": "Категория",
     "RARITY_WORD": "Редкость",
     "SET_WORD_KEY": "Набор",
@@ -109,9 +160,16 @@
     "LEVEL_WORD_KEY": "Уровень",
     "MIN_PREFIX_KEY": "мин.",
     "MAX_PREFIX_KEY": "макс.",
-    "all": "Все"
+    "all": "Все",
+    "PAGE_TITLE_MASTERIES": "Мастерство Overlooting",
+    "SELECT_HERO_PLACEHOLDER": "Выберите героя...",
+    "CAT_HERO_NAME": "Кошка",
+    "DOG_HERO_NAME": "Собака",
+    "SHADOW_HERO_NAME": "Тень"
   },
   "zh_CH": {
+    "NAV_ITEMS": "物品",
+    "NAV_MASTERIES": "精通",
     "CATEGORY_WORD": "类别",
     "RARITY_WORD": "稀有度",
     "SET_WORD_KEY": "套装",
@@ -123,6 +181,11 @@
     "LEVEL_WORD_KEY": "等级",
     "MIN_PREFIX_KEY": "最小",
     "MAX_PREFIX_KEY": "最大",
-    "all": "全部"
+    "all": "全部",
+    "PAGE_TITLE_MASTERIES": "Overlooting 精通",
+    "SELECT_HERO_PLACEHOLDER": "选择一个英雄...",
+    "CAT_HERO_NAME": "猫",
+    "DOG_HERO_NAME": "狗",
+    "SHADOW_HERO_NAME": "暗影"
   }
 }
