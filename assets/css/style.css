@@ -122,11 +122,38 @@ header h1 {
     flex-grow: 1;
 }
 
+.memory-card-image-container {
+    /* Conteneur pour la superposition */
+    position: relative; 
+    /* Définit la taille du conteneur sur la plus grande image (le fond : 100px) */
+    width: 100px; 
+    height: 100px;
+    margin-bottom: 15px; /* Marge pour séparer de .memory-card-info */
+    display: flex; 
+    justify-content: center; /* Centre horizontalement l'icône 80px */
+    align-items: center;   /* Centre verticalement l'icône 80px */
+}
+
+.item-background-image {
+    /* L'image de fond (derrière) - 160px redimensionnée à 100px */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* S'adapte au conteneur (100px) */
+    height: 100%;
+    object-fit: contain;
+    z-index: 1; 
+}
+
 .memory-card-image {
-    width: 80px;
+    /* L'icône de l'objet (devant) - 128px redimensionnée à 80px */
+    position: relative; 
+    z-index: 2; 
+    width: 80px; /* Taille souhaitée pour l'icône */
     height: 80px;
     object-fit: contain;
-    margin-bottom: 15px;
+    /* On retire l'ancienne marge qui était gérée par le conteneur .memory-card-image-container */
+    margin-bottom: 0; 
 }
 
 .memory-card-info {
@@ -198,7 +225,7 @@ header h1 {
 .level-content {
     display: none;
     text-align: left;
-    font-size: 0.85em;
+    font-size: 1.0em;
     color: #ccc;
     padding: 5px;
 }

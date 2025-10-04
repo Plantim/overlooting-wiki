@@ -126,7 +126,14 @@ document.addEventListener('DOMContentLoaded', async () => {
         const card = document.createElement('div');
         card.className = `memory-card ${item.rarity.toLowerCase()}`;
         
-        const imageUrl = `assets/game/upscaled_assets/items/sets/${item.folder}/icons/${item.icon}.png`;
+        // Définition des URLs des deux images
+        // 1. Image de l'objet (devant) : 128px (affiché en 80px)
+        const itemIconUrl = `assets/game/upscaled_assets/items/sets/${item.folder}/icons/${item.icon}.png`;
+        
+        // 2. Image de fond (derrière) : 160px, basée sur la rareté (affiché en 100px)
+        const backgroundRarityName = item.rarity.toLowerCase(); // common, rare, epic, etc.
+        const itemBackgroundUrl = `assets/game/upscaled_assets/items/other/${backgroundRarityName}_item_background.png`;
+
         const rarityKey = `${item.rarity.toUpperCase()}_KEY`;
         const categoryKey = categoryTranslationMap[item.category] || item.category;
 
@@ -216,7 +223,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         card.innerHTML = `
             <div class="memory-card-header"><span class="memory-card-name">${nameHtml}</span></div>
             <div class="memory-card-content">
-                <img src="${imageUrl}" alt="${translatedName}" class="memory-card-image" loading="lazy">
+                <div class="memory-card-image-container">
+                    <img src="${itemBackgroundUrl}" alt="${item.rarity} background" class="item-background-image" loading="lazy">
+                    <img src="${itemIconUrl}" alt="${translatedName}" class="memory-card-image" loading="lazy">
+                </div>
                 <div class="memory-card-info">
                     <div class="info-row">
                         <span class="label">${getTranslation('CATEGORY_WORD', currentLang)}</span>
