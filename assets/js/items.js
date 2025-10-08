@@ -221,34 +221,35 @@ document.addEventListener('DOMContentLoaded', async () => {
         const levelWord = getTranslation('LEVEL_WORD_KEY', currentLang) || 'Level';
         
         card.innerHTML = `
-            <div class="memory-card-header"><span class="memory-card-name">${nameHtml}</span></div>
+            <div class="memory-card-header">
+                <span class="memory-card-name">${nameHtml}</span>
+            </div>
             <div class="memory-card-content">
-                <div class="memory-card-image-container">
-                    <img src="${itemBackgroundUrl}" alt="${item.rarity} background" class="item-background-image" loading="lazy">
-                    <img src="${itemIconUrl}" alt="${translatedName}" class="memory-card-image" loading="lazy">
-                </div>
-                <div class="memory-card-info">
-                    <div class="info-row">
-                        <span class="label">${getTranslation('CATEGORY_WORD', currentLang)}</span>
-                        <span class="value">${getTranslation(categoryKey, currentLang)}</span>
+                <div class="memory-card-main-content"> 
+                    <div class="memory-card-image-container">
+                        <img src="${itemBackgroundUrl}" alt="${item.rarity} background" class="item-background-image" loading="lazy">
+                        <img src="${itemIconUrl}" alt="${translatedName}" class="memory-card-image" loading="lazy">
                     </div>
-                    <div class="info-row">
-                        <span class="label">${getTranslation('RARITY_WORD', currentLang)}</span>
-                        <span class="value rarity-value">${getTranslation( rarityKey, currentLang)}</span>
-                    </div>
-                    <div class="info-row">
-                        <span class="label">${getTranslation('SET_WORD_KEY', currentLang)}</span>
-                        <span class="value set-info ${tooltipHtmlAttribute ? 'has-tooltip' : ''}" ${tooltipHtmlAttribute}>
-                            ${setIconHtml}
-                            <span>${getTranslation(setTranslationKey, currentLang)}</span>
-                        </span>
+                    <div class="memory-card-info">
+                        <div class="info-row">
+                            <span class="value">${getTranslation(categoryKey, currentLang)}</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="value rarity-value">${getTranslation( rarityKey, currentLang)}</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="value set-info ${tooltipHtmlAttribute ? 'has-tooltip' : ''}" ${tooltipHtmlAttribute}>
+                                ${setIconHtml}
+                                <span>${getTranslation(setTranslationKey, currentLang)}</span>
+                            </span>
+                        </div>
                     </div>
                 </div>
                 <div class="memory-card-levels">
                     <div class="level-tabs">
-                        <button class="tab-button active" data-level="1" data-itemid="${item.id}">${levelWord} 1</button>
-                        <button class="tab-button" data-level="2" data-itemid="${item.id}">${levelWord} 2</button>
-                        <button class="tab-button" data-level="3" data-itemid="${item.id}">${levelWord} 3</button>
+                        <button class="tab-button active level-1" data-level="1" data-itemid="${item.id}"><span class="sr-only">${levelWord} 1</span></button>
+                        <button class="tab-button level-2" data-level="2" data-itemid="${item.id}"><span class="sr-only">${levelWord} 2</span></button>
+                        <button class="tab-button level-3" data-level="3" data-itemid="${item.id}"><span class="sr-only">${levelWord} 3</span></button>
                     </div>
                     ${levelsHtml}
                 </div>

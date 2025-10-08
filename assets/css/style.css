@@ -70,8 +70,8 @@ header h1 {
 
 #items-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 25px;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 10px;
 }
 
 .memory-card {
@@ -114,8 +114,25 @@ header h1 {
     color: #fff;
 }
 
+/* 1. Aligne l'Image et l'Info côte à côte */
+.memory-card-main-content {
+    /* Active Flexbox sur le nouveau conteneur */
+    display: flex; 
+    
+    /* Écarte l'Image à gauche et l'Info à droite */
+    justify-content: space-between; 
+    
+    /* Permet aux deux éléments de prendre toute la largeur disponible */
+    width: 100%; 
+    
+    /* Ajoute un petit espace en bas pour séparer memory-card-levels */
+    margin-bottom: 5px; 
+    align-items: flex-start; 
+}
+
 .memory-card-content {
     padding: 15px;
+    padding-bottom: 5px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -123,11 +140,18 @@ header h1 {
 }
 
 .memory-card-image-container {
-    /* Conteneur pour la superposition */
-    position: relative; 
-    /* Définit la taille du conteneur sur la plus grande image (le fond : 100px) */
-    width: 100px; 
-    height: 100px;
+    /* DÉFINISSEZ LA LARGEUR SOUHAITÉE ICI */
+    width: 100px; /* Par exemple, la taille de itemBackgroundUrl */
+    height: 100px; /* Optionnel, si la hauteur est également fixe */
+
+    /* Flexbox essaie par défaut de rétrécir les éléments. 
+       Ceci l'empêche de rétrécir le conteneur d'image. */
+    flex-shrink: 0; 
+    
+    /* IMPORTANT : Assurez-vous que l'image de fond et l'icône à l'intérieur 
+       s'adaptent correctement à ce conteneur de 100px. */
+    position: relative; /* Nécessaire si les images sont en 'position: absolute' */
+
     margin-bottom: 15px; /* Marge pour séparer de .memory-card-info */
     display: flex; 
     justify-content: center; /* Centre horizontalement l'icône 80px */
@@ -139,7 +163,7 @@ header h1 {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%; /* S'adapte au conteneur (100px) */
+    width: 100%; /* L'image de fond prend toute la taille du conteneur (100px) */
     height: 100%;
     object-fit: contain;
     z-index: 1; 
@@ -149,7 +173,8 @@ header h1 {
     /* L'icône de l'objet (devant) - 128px redimensionnée à 80px */
     position: relative; 
     z-index: 2; 
-    width: 80px; /* Taille souhaitée pour l'icône */
+    /* L'icône est plus petite, centrée ou positionnée à l'intérieur du conteneur */
+    width: 80px; /* Elle conserve sa taille de 80px */
     height: 80px;
     object-fit: contain;
     /* On retire l'ancienne marge qui était gérée par le conteneur .memory-card-image-container */
@@ -158,12 +183,18 @@ header h1 {
 
 .memory-card-info {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
+    /* Laissez cet élément prendre tout l'espace restant */
+    flex-grow: 1; 
+    /* DÉCALAGE : Ajoutez une marge à gauche pour créer l'espace visible */
+    /* Ajustez cette valeur (par exemple, 20px ou 30px) jusqu'à ce que
+       le texte soit suffisamment éloigné de l'icône. */
+    margin-left: 20px; 
 }
 
 .info-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 8px 0;
     border-bottom: 1px solid #3a3a3a;
 }
@@ -186,7 +217,7 @@ header h1 {
 
 .memory-card-levels {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 5px;
     padding: 0 10px;
     box-sizing: border-box;
 }
@@ -196,30 +227,86 @@ header h1 {
     justify-content: space-around;
     border-bottom: 2px solid #5a5a5a;
     margin-bottom: 10px;
+    /* AJOUTE LA MARGE INTERNE ICI pour créer l'espace sous les icônes */
+    padding-bottom: 8px; /* Ajustez cette valeur pour l'espace */
 }
 
 .tab-button {
-    background: none;
-    border: none;
-    color: #b8b8b8;
-    padding: 8px 12px;
+    position: relative; /* Indispensable pour positionner ::after */
+    /* Définit une taille pour l'icône (ajustez selon vos besoins) */
+    width: 40px; 
+    height: 40px;
+    padding: 0; 
+    
+    /* Cache le texte s'il y en avait, mais ici, ils sont vides. */
+    text-indent: -9999px; 
+    
+    /* Assure que l'image est bien visible et centrée */
+    background-size: contain; /* Ajuste l'image pour qu'elle tienne dans le bouton sans être coupée */
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-color: transparent; /* Si vous ne voulez pas de couleur de fond par défaut */
+    border: none; /* Bordure par défaut */
     cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    transition: color 0.2s, border-bottom 0.2s;
-    border-bottom: 3px solid transparent;
-    flex-grow: 1;
-    text-align: center;
+    transition: opacity 0.2s ease-in-out, border-bottom-color 0.2s; /* Ajout d'opacity à la transition */
+    /* Retire la bordure que nous allons gérer avec ::after */
+    border-bottom: none !important; /* On s'assure qu'aucune autre règle ne l'applique */
+    /* NOUVEAU : Opacité par défaut pour les icônes non actives */
+    opacity: 0.3; /* Par exemple, 60% transparent. Ajustez cette valeur. */
+                  /* Une valeur entre 0.5 et 0.8 est généralement bonne. */
+
+    
+}
+
+
+/* 4. Le pseudo-élément qui crée la barre de sélection */
+.tab-button.active::after {
+    content: '';
+    display: block;
+    
+    /* MODIFICATION CLÉ : Au lieu de 0, on le descend. 
+       bottom: 0 veut dire "coller au bas du bouton" (ce qui est maintenant 8px au-dessus de la ligne grise).
+       bottom: -5px (par exemple) veut dire : "déplace-toi 5px PLUS BAS que le bas du bouton."
+       
+       Puisque nous avons 8px de padding, nous allons le décaler d'une valeur qui le place 
+       au milieu de cet espace. */
+    position: absolute;
+    bottom: -5px; /* Déplace la barre bleue/dorée vers le bas de 5px. Ajustez cette valeur ! */
+    left: 0;
+    
+    /* Règle la taille et la couleur de la barre */
+    width: 100%;
+    height: 3px; 
+    background-color: #007bff; /* Mettez la couleur désirée ici (bleu ou gold) */
+
+    /* La transition rend l'apparition plus douce */
+    transition: width 0.2s ease-in-out; 
+}
+
+/* ---------------------------------------------------- */
+
+/* Images spécifiques via leurs classes */
+
+.tab-button.level-1 {
+    background-image: url('/assets/game/stars/level_1_stars.png')
+}
+
+.tab-button.level-2 {
+    background-image: url('/assets/game/stars/level_2_stars.png')
+}
+
+.tab-button.level-3 {
+    background-image: url('/assets/game/stars/level_3_stars.png')
 }
 
 .tab-button:hover {
     color: #fff;
+    opacity: 0.8; /* L'icône est pleinement visible */
 }
 
 .tab-button.active {
     color: #fff;
-    border-bottom: 3px solid #007bff;
+    opacity: 1; /* L'icône est pleinement visible */
 }
 
 .level-content {
@@ -285,11 +372,14 @@ header h1 {
 .set-info {
     display: flex;
     align-items: center;
+    /* NOUVEAU : Inverse l'ordre : Le texte (span) passe à gauche, le logo passe à droite. */
+    /* flex-direction: row-reverse;  */
 }
 
 .set-icon {
     height: 1em;
     margin-right: 6px;
+    margin-left: 0px; /* Ajoute l'espace entre le texte et l'icône */
 }
 
 /* --- Style pour l'affichage de la version --- */
