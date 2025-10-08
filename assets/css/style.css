@@ -288,15 +288,15 @@ header h1 {
 /* Images spécifiques via leurs classes */
 
 .tab-button.level-1 {
-    background-image: url('/assets/game/stars/level_1_stars.png')
+    background-image: url('../assets/game/stars/level_1_stars.png')
 }
 
 .tab-button.level-2 {
-    background-image: url('/assets/game/stars/level_2_stars.png')
+    background-image: url('../assets/game/stars/level_2_stars.png')
 }
 
 .tab-button.level-3 {
-    background-image: url('/assets/game/stars/level_3_stars.png')
+    background-image: url('../assets/game/stars/level_3_stars.png')
 }
 
 .tab-button:hover {
