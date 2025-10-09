@@ -498,15 +498,18 @@
             "stats": {
                 "level 1": {
                     "armor": 8,
-                    "enrage": 2
+                    "enrage": 2,
+                    "damage_amplification": 10
                 },
                 "level 2": {
                     "armor": 11,
-                    "enrage": 3
+                    "enrage": 3,
+                    "damage_amplification": 15
                 },
                 "level 3": {
                     "armor": 15,
-                    "enrage": 4
+                    "enrage": 4,
+                    "damage_amplification": 23
                 }
             }
         },
