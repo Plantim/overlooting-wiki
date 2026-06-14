@@ -1,5 +1,49 @@
 {
     "arcane": {
+        "apprentice_hat": {
+            "id": "apprentice_hat",
+            "name": "APPRENTICE_HAT_NAME",
+            "category": "Head",
+            "rarity": "Common",
+            "equipment_set": "arcane_hat",
+            "icon": "apprentice_hat",
+            "stats": {
+                "level 1": {
+                    "armor": 3,
+                    "mana_burst":8
+                },
+                "level 2": {
+                    "armor": 4,
+                    "mana_burst":12
+                },
+                "level 3": {
+                    "armor": 6,
+                    "mana_burst":18
+                }
+            }
+        },
+        "apprentice_wand": {
+            "id": "apprentice_wand",
+            "name": "APPRENTICE_WAND_NAME",
+            "category": "Weapon",
+            "rarity": "Common",
+            "equipment_set": "arcane_set",
+            "icon": "apprentice_wand",
+            "stats": {
+                "level 1": {
+                    "min_magic_damage": 2,
+                    "max_magic_damage": 4
+                },
+                "level 2": {
+                    "min_magic_damage": 4,
+                    "max_magic_damage": 6
+                },
+                "level 3": {
+                    "min_magic_damage": 6,
+                    "max_magic_damage": 9
+                }
+            }
+        },
         "adept_boots": {
             "id": "adept_boots",
             "name": "ADEPT_BOOTS_NAME",
@@ -535,6 +579,31 @@
                     "armor": 15,
                     "regeneration": 3,
                     "enrage": 4
+                }
+            }
+        },
+        "boar_club": {
+            "id": "boar_club",
+            "name": "BOAR_CLUB_NAME",
+            "category": "Weapon",
+            "rarity": "Uncommon",
+            "equipment_set": "beast_set",
+            "icon": "boar_club",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 3,
+                    "max_physical_damage": 5,
+                    "bludgeoning": 5
+                },
+                "level 2": {
+                    "min_physical_damage": 5,
+                    "max_physical_damage": 8,
+                    "bludgeoning": 8
+                },
+                "level 3": {
+                    "min_physical_damage": 8,
+                    "max_physical_damage": 12,
+                    "bludgeoning": 12   
                 }
             }
         },
@@ -1372,6 +1441,37 @@
                     "enrage": 3
                 }
             }
+        },
+        "executioners_scythe": {
+            "id": "executioners_scythe",
+            "name": "EXECUTIONERS_SCYTHE_NAME",
+            "category": "Weapon",
+            "rarity": "Legendary",
+            "equipment_set": "faceless_set",
+            "icon": "executioners_scythe",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage": 6,
+                    "max_physical_damage": 13,
+                    "critical_chance": 10,
+                    "critical_damage": 10,
+                    "lifesteal": 3
+                },
+                "level 2": {
+                    "min_physical_damage": 9,
+                    "max_physical_damage": 20,
+                    "critical_chance": 15,
+                    "critical_damage": 15,
+                    "lifesteal": 5
+                },
+                "level 3": {
+                    "min_physical_damage": 14,
+                    "max_physical_damage": 30,
+                    "critical_chance": 23,
+                    "critical_damage": 23,
+                    "lifesteal": 7
+                }
+            }
         }
     },
     "fae": {
@@ -1802,6 +1902,25 @@
         }
     },
     "ironclad": {
+        "partial_chestplate": {
+            "id": "partial_chestplate",
+            "name": "PARTIAL_CHESTPLATE_NAME",
+            "category": "Torso",
+            "rarity": "Common",
+            "equipment_set": "ironclad_set",
+            "icon": "partial_chestplate",
+            "stats": {
+                "level 1": {
+                    "armor": 3
+                },
+                "level 2": {
+                    "armor": 5
+                },
+                "level 3": {
+                    "armor": 8 
+                }
+            }
+        },
         "arming_sword": {
             "id": "arming_sword",
             "name": "ARMING_SWORD_NAME",
@@ -2261,28 +2380,6 @@
                 }
             }
         },
-        "bronze_buckler": {
-            "id": "bronze_buckler",
-            "name": "BRONZE_BUCKLER_NAME",
-            "category": "Shield",
-            "rarity": "Common",
-            "equipment_set": "legion_set",
-            "icon": "bronze_buckler",
-            "stats": {
-                "level 1": {
-                    "armor": 2,
-                    "guard": 1
-                },
-                "level 2": {
-                    "armor": 4,
-                    "guard": 1
-                },
-                "level 3": {
-                    "armor": 6,
-                    "guard": 1
-                }
-            }
-        },
         "bronze_shield": {
             "id": "bronze_shield",
             "name": "BRONZE_SHIELD_NAME",
@@ -2606,9 +2703,150 @@
                     "damage_amplification": 23
                 }
             }
+        },
+        "legionnaire_helmet": {
+            "id": "legionnaire_helmet",
+            "name": "LEGIONNAIRE_HELMET_NAME",
+            "category": "Head",
+            "rarity": "Epic",
+            "equipment_set": "legion_set",
+            "icon": "legionnaire_helmet",
+            "stats": {
+                "level 1": {
+                    "armor": 10,
+                    "enrage":1
+                },
+                "level 2": {
+                    "armor": 15,
+                    "enrage":2
+                },
+                "level 3": {
+                    "armor": 23,
+                    "enrage":3
+                }
+            }
         }
     },
     "mythic": {
+        "black_lotus_petal": {
+            "id": "black_lotus_petal",
+            "name": "BLACK_LOTUS_PETAL_NAME",
+            "category": "Ring",
+            "rarity": "Mythic",
+            "equipment_set": "decadent_mythic",
+            "icon": "black_lotus_petal",
+            "stats": {
+                "level 1": {
+                    "luck": 5,
+                    "swiftness": 5,
+                    "poisonous":5
+                },
+                "level 2": {
+                    "luck": 8,
+                    "swiftness": 8,
+                    "poisonous":8
+                },
+                "level 3": {
+                    "luck": 12,
+                    "swiftness": 12,
+                    "poisonous":12
+                }
+            }
+        },
+        "lead_boots": {
+            "id": "lead_boots",
+            "name": "LEAD_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Mythic",
+            "equipment_set": "immovable_mythic",
+            "icon": "lead_boots",
+            "stats": {
+                "level 1": {
+                    "armor": 12,
+                    "regeneration": 1,
+                    "guard": 1
+                },
+                "level 2": {
+                    "armor": 18,
+                    "regeneration": 2,
+                    "guard": 2
+                },
+                "level 3": {
+                    "armor": 27,
+                    "regeneration": 3,
+                    "guard": 3
+                }
+            }
+        },
+        "quicksilver_pendant": {
+            "id": "quicksilver_pendant",
+            "name": "QUICKSILVER_PENDANT_NAME",
+            "category": "Necklace",
+            "rarity": "Mythic",
+            "equipment_set": "mercurial_mythic",
+            "icon": "quicksilver_pendant",
+            "stats": {
+                "level 1": {
+                    "swiftness": 20,
+                    "damage_amplification":20
+                },
+                "level 2": {
+                    "swiftness": 30,
+                    "damage_amplification":30
+                },
+                "level 3": {
+                    "swiftness": 45,
+                    "damage_amplification":45
+                }
+            }
+        },
+        "soul_devourer": {
+            "id": "soul_devourer",
+            "name": "SOUL_DEVOURER_NAME",
+            "category": "Torso",
+            "rarity": "Mythic",
+            "equipment_set": "insatiable_mythic",
+            "icon": "soul_devourer",
+            "stats": {
+                "level 1": {
+                    "min_physical_damage":13,
+                    "max_physical_damage":19,
+                    "lifesteal":3
+                },
+                "level 2": {
+                    "min_physical_damage":20,
+                    "max_physical_damage":29,
+                    "lifesteal":5
+                },
+                "level 3": {
+                    "min_physical_damage":30,
+                    "max_physical_damage":44,
+                    "lifesteal":7
+                }
+            }
+        },
+        "warmage_hat": {
+            "id": "warmage_hat",
+            "name": "WARMAGE_HAT_NAME",
+            "category": "Head",
+            "rarity": "Mythic",
+            "equipment_set": "versatile_mythic",
+            "icon": "warmage_hat",
+            "stats": {
+                "level 1": {
+                    "armor":5,
+                    "damage_amplification":50
+                },
+                "level 2": {
+                    "armor":8,
+                    "damage_amplification":75
+                },
+                "level 3": {
+                    "armor":12,
+                    "damage_amplification":113
+                }
+            }
+        },
         "breastplate_of_orichalcum": {
             "id": "breastplate_of_orichalcum",
             "name": "ORICHALCHUM_BREASTPLATE_NAME",
@@ -3770,6 +4008,34 @@
                     "critical_chance": 12
                 }
             }
+        },
+        "midnight_helmet": {
+            "id": "midnight_helmet",
+            "name": "MIDNIGHT_HELMET_NAME",
+            "category": "Head",
+            "rarity": "Legendary",
+            "equipment_set": "rogue_set",
+            "icon": "midnight_helmet",
+            "stats": {
+                "level 1": {
+                    "armor":8,
+                    "dodge":12,
+                    "critical_chance":10,
+                    "critical_damage":30
+                },
+                "level 2": {
+                    "armor":12,
+                    "dodge":18,
+                    "critical_chance":15,
+                    "critical_damage":45
+                },
+                "level 3": {
+                    "armor":18,
+                    "dodge":27,
+                    "critical_chance":23,
+                    "critical_damage":68
+                }
+            }
         }
     },
     "ronin": {
@@ -4148,6 +4414,31 @@
                     "swiftness": 23
                 }
             }
+        },
+        "garb_of_the_exiled": {
+            "id": "garb_of_the_exiled",
+            "name": "GARB_OF_THE_EXILED_NAME",
+            "category": "Chest",
+            "rarity": "Epic",
+            "equipment_set": "ronin_set",
+            "icon": "garb_of_the_exiled",
+            "stats": {
+                "level 1": {
+                    "armor":8,
+                    "dodge":15,
+                    "counterattack":10
+                },
+                "level 2": {
+                    "armor":12,
+                    "dodge":23,
+                    "counterattack":15
+                },
+                "level 3": {
+                    "armor":18,
+                    "dodge":35,
+                    "counterattack":23
+                }
+            }
         }
     },
     "royal": {
@@ -4476,6 +4767,57 @@
                     "regeneration": 3,
                     "luck": 23,
                     "damage_amplification": 45
+                }
+            }
+        }
+        ,
+        "page_boots": {
+            "id": "page_boots",
+            "name": "PAGE_BOOTS_NAME",
+            "category": "Footwear",
+            "rarity": "Uncommon",
+            "equipment_set": "royal_set",
+            "icon": "page_boots",
+            "stats": {
+                "level 1": {
+                    "armor":3,
+                    "luck":5,
+                    "swiftness":3
+                },
+                "level 2": {
+                    "armor":5,
+                    "luck":8,
+                    "swiftness":5
+                },
+                "level 3": {
+                    "armor":8,
+                    "luck":12,
+                    "swiftness":8
+                }
+            }
+        },
+        "page_cape": {
+            "id": "page_cape",
+            "name": "PAGE_CAPE_NAME",
+            "category": "Back",
+            "rarity": "Uncommon",
+            "equipment_set": "royal_set",
+            "icon": "page_cape",
+            "stats": {
+                "level 1": {
+                    "armor":3,
+                    "dodge":5,
+                    "luck":5
+                },
+                "level 2": {
+                    "armor":5,
+                    "dodge":8,
+                    "luck":8
+                },
+                "level 3": {
+                    "armor":8,
+                    "dodge":12,
+                    "luck":12
                 }
             }
         }
@@ -5159,6 +5501,34 @@
                 "level 3": {
                     "critical_chance": 12,
                     "swiftness": 35
+                }
+            }
+        },
+        "cloak_of_the_wanderer": {
+            "id": "cloak_of_the_wandere",
+            "name": "CLOAK_OF_THE_WANDERER_NAME",
+            "category": "Back",
+            "rarity": "Legendary",
+            "equipment_set": "sylvan_set",
+            "icon": "cloak_of_the_wanderer",
+            "stats": {
+                "level 1": {
+                    "armor":5,
+                    "dodge":15,
+                    "swiftness":10,
+                    "counterattack":50
+                },
+                "level 2": {
+                    "armor":8,
+                    "dodge":23,
+                    "swiftness":15,
+                    "counterattack":75
+                },
+                "level 3": {
+                    "armor":12,
+                    "dodge":35,
+                    "swiftness":23,
+                    "counterattack":113
                 }
             }
         }
@@ -5873,6 +6243,72 @@
                 "level 3": {
                     "min_physical_damage": 4,
                     "max_physical_damage": 9,
+                    "luck": 12
+                }
+            }
+        },
+        "padded_boots": {
+            "id": "padded_boots",
+            "name": "PADDED_BOOTS_NAME",
+            "category": "Feet",
+            "rarity": "Uncommon",
+            "equipment_set": "villager_set",
+            "icon": "padded_boots",
+            "stats": {
+                "level 1": {
+                    "luck": 5,
+                    "swiftness":12
+                },
+                "level 2": {
+                    "luck": 8,
+                    "swiftness":18
+                },
+                "level 3": {
+                    "luck": 12,
+                    "swiftness":27
+                }
+            }
+        },
+        "padded_garb": {
+            "id": "padded_garb",
+            "name": "PADDED_GARB_NAME",
+            "category": "Chest",
+            "rarity": "Uncommon",
+            "equipment_set": "villager_set",
+            "icon": "padded_garb",
+            "stats": {
+                "level 1": {
+                    "armor":4,
+                    "luck": 5
+                },
+                "level 2": {
+                    "armor": 6,
+                    "luck": 8
+                },
+                "level 3": {
+                    "armor": 9,
+                    "luck": 12
+                }
+            }
+        },
+        "padded_hat": {
+            "id": "padded_hat",
+            "name": "PADDED_HAT_NAME",
+            "category": "Head",
+            "rarity": "Uncommon",
+            "equipment_set": "villager_set",
+            "icon": "padded_hat",
+            "stats": {
+                "level 1": {
+                    "armor":4,
+                    "luck": 5
+                },
+                "level 2": {
+                    "armor": 6,
+                    "luck": 8
+                },
+                "level 3": {
+                    "armor": 9,
                     "luck": 12
                 }
             }
